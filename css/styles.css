@@ -1,0 +1,102 @@
+/* Default CSS objects */
+
+h1 {
+    color: #66BFBF;
+    padding-top: 100px;
+    margin: 0px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 4rem;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 1.5rem;
+}
+
+h3 {
+    color: #66BFBF;
+    font-size: 1rem;
+    border: 0rem 5rem 0rem 5rem;
+}
+
+body {
+    text-align: center;
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Custom Classes */
+
+.top-container {
+    background-color: #EAF6F6;
+    text-align: center;
+}
+
+.mid-container {
+    background-color: #FAFDF3;
+    padding: 2.5rem;
+    border: 0rem;
+    margin: 0rem;
+}
+
+.bot-container {
+    background-color: #FAFDF3;
+    padding: 1rem;
+    border: 0rem;
+    margin: 0rem;
+}
+
+.self-taught {
+    text-decoration: underline;
+}
+
+.dots {
+    border: none;
+    border-top: 0.5rem dotted;
+    width: 5%;
+    color: gray;
+    padding: 1.5rem;
+}
+
+.skills-container {
+    margin: 4rem auto 4rem auto;
+    width: 50%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* Custom IDs */
+
+#top-cloud {
+    position: absolute;
+    left: 68%;
+    top: 6%;
+}
+
+#bot-cloud {
+    position: absolute;
+    left: 30%;
+    top: 28%;
+}
+
+#profile-pic {
+    border-radius: 100%;
+    height: 10rem;
+    width: 10rem;
+}
+
+#datascience {
+    border-radius: 100%;
+    float: left;
+    height: 9rem;
+    width: 9rem;
+    margin-right: 2rem;
+}
+
+#fullstack {
+    border-radius: 100%;
+    float: right;
+    height: 9rem;
+    width: 9rem;
+    margin-left: 2rem;
+}
