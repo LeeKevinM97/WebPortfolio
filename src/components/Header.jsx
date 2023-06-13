@@ -1,9 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react';
-import { FiMenu, FiMoon, FiSun, FiX } from 'react-icons/fi';
-import logoLight from '../images/logo-light.svg';
-import logoDark from '../images/logo-dark.svg';
+import { FiMoon, FiSun } from 'react-icons/fi';
 
 function Header() {
 
