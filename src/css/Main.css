@@ -26,3 +26,9 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+/* Start Home Portion Here */
+
+#homeBackground {
+    background-color: var(--second);
+}

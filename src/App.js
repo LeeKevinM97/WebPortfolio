@@ -4,6 +4,7 @@ import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 
 import Home from './components/Home.jsx';
+import About from './components/About.jsx'
 import Projects from './components/Projects.jsx';
 
 import './index.css';
@@ -15,7 +16,7 @@ function App() {
     <Header/>
     <Routes>
       <Route index element={<Home/>}/>
-      <Route path="about" element={<Projects/>}/>
+      <Route path="about" element={<About/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

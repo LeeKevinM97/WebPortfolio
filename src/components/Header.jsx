@@ -40,16 +40,16 @@ function Header() {
               {/* This part is for the regular navbar */}
               <div className="md:flex justify-between hidden">
                 <NavLink className="navlink-header" to="/">
-                  <p className="roboto my-auto nav-text px-5 text-xl">Home</p>
+                  <p className="scp my-auto nav-text px-5 text-xl font-semibold">Home</p>
                 </NavLink>
                 <NavLink className="navlink-header" to="about">
-                  <p className="roboto my-auto nav-text px-5 text-xl">About</p>
+                  <p className="scp my-auto nav-text px-5 text-xl font-semibold">About</p>
                 </NavLink>
                 <NavLink className="navlink-header" to="projects">
-                  <p className="roboto my-auto nav-text px-5 text-xl">Projects</p>
+                  <p className="scp my-auto nav-text px-5 text-xl font-semibold">Projects</p>
                 </NavLink>
                 <NavLink className="navlink-header" to="contact">
-                  <p className="roboto my-auto nav-text px-5 text-xl">Contact</p>
+                  <p className="scp my-auto nav-text px-5 text-xl font-semibold">Contact</p>
                 </NavLink>
               </div>
 
