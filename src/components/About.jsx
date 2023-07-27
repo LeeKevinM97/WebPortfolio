@@ -32,7 +32,7 @@ function About() {
                                     </p>
                                     <p className="leading-tight text-left w-full scp">
                                         Focused on data pipeline for FireCARES, NFORS Analytics, and NFORS Exposure projects.<br/>
-                                        Implementation of features regarding AWS.
+                                        ......
                                     </p>
                                 </div>
                             </div>
@@ -64,10 +64,71 @@ function About() {
 
                                         Improved process marginality through standardization and recipe modifications across owned process groups<br/>
                                         Increased capacity throughput by reduction of process step times<br/>
-                                        Reduction of raw materials usage in process for cost savings<br/>
+                                        Reduced of raw materials usage in process for cost savings<br/>
                                         
                                         Troubleshooting process trend shifts and equipment particle / sensor alarms to determine root cause and address<br/>
-                                        Mentorship for new process engineers and college interns
+                                        Mentoring for new process engineers and college interns
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            {/* New Work Experience */}
+                            <div className="flex md:contents">
+                                <div className="col-start-1 col-end-3 mr-6 md:mx-auto relative">
+                                    <div className="h-full w-6 flex items-center justify-center">
+                                        <div className="h-full w-1 bg-third pointer-events-none"></div>
+                                    </div>
+                                    <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-third shadow text-center">
+                                        <i className="fas fa-check-circle text-white"></i>
+                                    </div>
+                                </div>
+                                <div className="bg-third col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-fourth">
+                                    <h3 className="font-semibold text-lg scp">
+                                        Engineering Tutor
+                                    </h3>
+                                    <a className="scp" href="https://i-psdi.org/">
+                                        University of Texas at Austin
+                                    </a>
+                                    <p className="leading-tight text-left w-full scp mb-3">
+                                        Sep 2016 - May 2018
+                                    </p>
+                                    <p className="leading-tight text-left w-full scp">
+                                        Provided aid to students in the following courses: <br/>
+                                        Statics<br/>
+                                        Dynamics<br/>
+                                        Mechanics of Solids
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+                            {/* New Work Experience */}
+                            <div className="flex md:contents">
+                                <div className="col-start-1 col-end-3 mr-6 md:mx-auto relative">
+                                    <div className="h-full w-6 flex items-center justify-center">
+                                        <div className="h-full w-1 bg-third pointer-events-none"></div>
+                                    </div>
+                                    <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-third shadow text-center">
+                                        <i className="fas fa-check-circle text-white"></i>
+                                    </div>
+                                </div>
+                                <div className="bg-third col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-fourth">
+                                    <h3 className="font-semibold text-lg scp">
+                                        Internship - Engineering
+                                    </h3>
+                                    <a className="scp" href="https://i-psdi.org/">
+                                        Samsung Austin Semiconductor, LLC.
+                                    </a>
+                                    <p className="leading-tight text-left w-full scp mb-3">
+                                        Summers of 2016 & 2017
+                                    </p>
+                                    <p className="leading-tight text-left w-full scp">
+                                        Led and managed contractors for fume hood installation project for safety improvement<br/>
+                                        Improved equipment labeling with chemical compatibility verification to reduce deterioration<br/>
+                                        Developed and analyzed incompatible sets of materials in pressure transducers to identify and prevent high-impact leaks and faults<br/>
+                                        Standardized P&IDs for ease of use and physically verified all components included in diagrams
                                     </p>
                                 </div>
                             </div>
