@@ -1,4 +1,5 @@
 import React from 'react'
+import Border from '../components/Border.jsx'
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react';
 import { FiMoon, FiSun } from 'react-icons/fi';
@@ -127,6 +128,7 @@ function Header() {
           )}
 
         </div>
+        <Border/>
     </>
   )
 }

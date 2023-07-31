@@ -1,9 +1,12 @@
 import React from 'react'
 
-function Border() {
-  return (
-    <div>Border</div>
-  )
+export default function Border() {
+    return (
+        <>
+            {/* Border */}
+            <div className="w-full h-px mx-auto py-12 bg-first">
+                <div className="w-[88%] h-px mx-auto shadow bg-third"/>
+            </div>
+        </>
+    )
 }
-
-export default Border

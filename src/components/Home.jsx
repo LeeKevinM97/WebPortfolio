@@ -1,4 +1,5 @@
 import React from 'react'
+import Border from '../components/Border.jsx'
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
                 Hello, my name is Kevin Maximiliano Lee.
               </p>
               <p className='text-fourth text-2xl'>
-                I am a Data Engineer / Full-Stack Developer!
+                I am a Full-Stack Developer / Data Engineer!
               </p>
             </div>
           </div>
