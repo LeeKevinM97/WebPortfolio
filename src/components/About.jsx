@@ -8,7 +8,7 @@ function About() {
                 <div className="p-8">
                     {/* This Portion is for About Me */}
                     <h1 className="text-4xl text-center font-semibold mb-6 text-fourth roboto">About Me</h1>
-                    <div className='w-fit mt-12 p-4 mx-12 scp text-fourth bg-second break-word rounded-xl'>
+                    <div className='w-fit mt-12 p-4 mx-12 scp text-white bg-second break-word rounded-xl'>
                         <p>
                             During my career in the Manufacturing Industry as an Engineer, I noticed a plethora of repetitive data collection and actions being done to fulfill daily job duties.
                             This sprouted an interest in automation of tasks and led me into learning VBA / CMD scripts to start.
