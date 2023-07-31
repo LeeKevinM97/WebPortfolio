@@ -119,7 +119,7 @@ function Header() {
         <div
           onClick={() => themeChange()}
           aria-label="Theme Switcher"
-          className="bg-second p-4 absolute rounded-xl cursor-pointer top-5 right-5"
+          className="bg-second p-4 absolute rounded-xl cursor-pointer top-5 right-5 hover:p-5"
         >
           {darkTheme === false ? (
             <FiMoon className="text-xl text-fourth" />
