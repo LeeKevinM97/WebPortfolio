@@ -17,8 +17,8 @@ function Footer() {
           <FontAwesomeIcon icon={faGithub} className="text-white h-10 w-10"/>
         </a>
       </div>
-      <p className="roboto">
-        © 2023 Kevin M. Lee
+      <p className="roboto text-fourth text-center pb-4">
+        © 2023 - Kevin M. Lee
       </p>
     </div>
     </>
