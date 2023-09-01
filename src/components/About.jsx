@@ -12,7 +12,8 @@ function About() {
                         <p>
                             During my career in the Manufacturing Industry as an Engineer, I noticed a plethora of repetitive data collection and actions being done to fulfill daily job duties.
                             This sprouted an interest in automation of tasks and led me into learning VBA / CMD scripts to start.
-                            Now, pursuing a Masters of Computer Science, I am ready for a transition into Full Stack Development or Data Engineering.
+                            From there, I moved onto developing automated monitoring scripts to email / message alerts and generating dashboards for ease of process monitoring.
+                            Now, halfway through a Masters of Computer Science, I am ready for a transition into Full Stack Development or Data Engineering.
                             With a unique blend of engineering principles and computer science knowledge, I excel at analytical problem-solving and developing efficient software solutions.
                             An intrigued, continuous learner, I am always curious about learning the latest technological trends.
                             Eager to apply these skills, I look forward to driving technical innovation and process improvements in challenging environments.
@@ -74,16 +75,26 @@ function About() {
                                         June 2018 - Current
                                     </p>
                                     <p className="leading-tight text-left w-full scp">
-                                        <em>Process Engineer - Plasma Enhanced TEOS Films</em><br />
-                                        Developed big data cloud dashboard using Python and Streamlit to aid department on visualization of process monitoring<br />
-                                        Generated automated analysis sent by email and messenger notifications on time-sensitive events / daily reporting for engineering visibility and review<br />
-
-                                        Improved process marginality through standardization and recipe modifications across owned process groups<br />
-                                        Increased capacity throughput by reduction of process step times<br />
-                                        Reduced of raw materials usage in process for cost savings<br />
-
-                                        Troubleshooting process trend shifts and equipment particle / sensor alarms to determine root cause and address<br />
-                                        Mentoring for new process engineers and college interns
+                                        <em><strong>Process Engineer - Plasma Enhanced TEOS Films</strong></em>  :  Aug 2020 - Current<br />
+                                        <ul class='list-disc pl-5'>
+                                            <li>Co-ownership of data solutions in the department - supporting automation requests and representative for fab-wide applications</li>
+                                            <li>Developed big data cloud dashboard using Python and Streamlit to aid department on process monitoring visualization</li>
+                                            <br/>
+                                            <li>Improved process marginality through standardization and recipe modifications across owned process groups</li>
+                                            <li>Increased capacity throughput by reduction of process step times</li>
+                                            <li>Reduced of raw materials usage in process for cost savings</li>
+                                            <li>Troubleshooting process trend shifts and equipment particle / sensor alarms to determine root cause and address</li>
+                                            <li>Mentoring for new process engineers and college interns</li>
+                                        </ul>                                     
+                                    </p>
+                                    <br/>
+                                    <p className="leading-tight text-left w-full scp">
+                                        <em><strong>Shift Engineer - Lead</strong></em>  :  June 2018 - Aug 2020<br />
+                                        <ul class='list-disc pl-5'>
+                                            <li>Developed VBA macro scripts to save 2.5 man-hours per day spent on repetitive, daily operations</li>
+                                            <li>Creatied a batch file to quickly open necessary applications, webpages, and SOPs for shift teams</li>
+                                            <li>Trained new hires on system proficiency and critical thinking for around the clock sustaining needs</li>
+                                        </ul>                                     
                                     </p>
                                 </div>
                             </div>
@@ -111,9 +122,11 @@ function About() {
                                     </p>
                                     <p className="leading-tight text-left w-full scp">
                                         Provided aid to students in the following courses: <br />
-                                        Statics<br />
-                                        Dynamics<br />
-                                        Mechanics of Solids
+                                        <ul class='list-disc pl-5'>
+                                            <li>Dynamics</li>
+                                            <li>Mechanics of Solids</li>
+                                            <li>Statics</li>
+                                        </ul>
                                     </p>
                                 </div>
                             </div>
@@ -182,12 +195,13 @@ function About() {
                                     <p className="leading-tight text-justify w-full scp">
                                         GPA: 4.00 / 4.00<br />
                                         Machine Learning Specialization<br /><br />
-                                        <em>Coursework</em><br />
+                                        <em><strong>Coursework</strong></em>  :  <em>Click on Course to view Final Projects' Demos</em><br />
                                         [A] Data & Visual Analytics<br />
                                         [A] Database System Concepts & Design<br />
                                         [A] Computer Vision<br />
                                         [A] Artificial Intelligence, Ethics, & Society<br />
-                                        [Current] Game Artificial Intelligence<br />
+                                        [A] Game Artificial Intelligence<br />
+                                        [Current] Machine Learning<br />
                                     </p>
                                 </div>
                             </div>
