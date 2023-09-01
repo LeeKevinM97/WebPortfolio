@@ -25,11 +25,11 @@ function Projects() {
             {/* Card 1 */}
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card1')}>
               {/* Image Section */}
-              <div className="grid-row flex items-center justify-center p-6">
-                <img className='object-contain h-full w-auto invert' src={require("../images/ClearView_Card.png")} alt='ClearView Vision Logo'></img>
+              <div className="grid-row py-auto flex justify-center align-center pt-6">
+                <img className='h-40 w-auto my-auto invert' src={require("../images/ClearView_Card.png")} alt='ClearView Vision Logo'></img>
               </div>
               {/* Description Section */}
-              <div className="grid-row p-6 flex flex-col justify-center">
+              <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">ClearView Vision</h2>
                 <p className="text-white">
                   Freelance project to develop a website for a new business owner.
@@ -39,16 +39,20 @@ function Projects() {
             </div>
 
             {/* Card 2 */}
-            <div className="bg-second rounded-lg shadow-md cursor-pointer p-6" onClick={() => openModal('card2')}>
-              <div className="flex items-center justify-center h-45 mb-6">
-                <img className='h-full w-auto' src={require("../images/DVA_Card.png")} alt='ClearView Vision Logo'></img>
+            <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card2')}>
+              {/* Image Section */}
+              <div className="grid-row py-auto flex justify-center align-center pt-6">
+                <img className='h-40 w-auto my-auto' src={require("../images/DVA_Card.png")} alt='Data & Visual Analytics Main Page'></img>
               </div>
-              <h2 className="text-lg font-bold text-white">Data & Visual Analytics</h2>
-              <p className="mt-2 text-white">
-                OMSCS Georgia Tech Coursework Project.
-                My team of 5 created a dashboard analyzing different aspects of National Fire Incident Reporting System (NFIRS) dataset.
-                Goal was to explore any large dataset and generate useful visualizations.
-              </p>
+              {/* Description Section */}
+              <div className="grid-row p-6 flex flex-col">
+                <h2 className="text-lg font-bold text-white mb-2">Data & Visual Analytics</h2>
+                <p className="mt-2 text-white">
+                  OMSCS Georgia Tech Coursework Project.
+                  My team of 5 created a dashboard analyzing different aspects of National Fire Incident Reporting System (NFIRS) dataset.
+                  Goal was to explore any large dataset and generate useful visualizations.
+                </p>
+              </div>
             </div>
 
             {/* ... Similarly add more cards as needed */}
@@ -74,7 +78,7 @@ function Projects() {
         {activeModal === 'card2' && (
           <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
             <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4" onClick={e => e.stopPropagation()}>
-              <h2 className="text-2xl font-bold">ClearView Vision</h2>
+              <h2 className="text-2xl font-bold">Data & Visual Analytics</h2>
               <p className="text-gray-700 mt-4">
                 Website for ClearView Vision a new business that opened in Austin, TX.
                 The site contains information regarding location, contact, services, insurances, and scheduling paired with a third party landing page.
