@@ -48,8 +48,10 @@ function About() {
                                         July 2023 - Current
                                     </p>
                                     <p className="leading-tight text-left w-full scp">
-                                        Focused on data pipeline for FireCARES, NFORS Analytics, and NFORS Exposure projects.<br />
-                                        ......
+                                        Develop, maintain, and optimize the NFORS Analytics platform<br/>
+                                        Collaborate with cross-functional teams to implement and enhance analytics solutions<br/>
+                                        Create detailed documentation pertaining to system architecture, data flow, functionality, and modification processes<br/>
+                                        Address and troubleshoot issues without impacting live product<br/>
                                     </p>
                                 </div>
                             </div>
