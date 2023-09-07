@@ -2,7 +2,10 @@ import React from 'react'
 import { useState } from 'react'
 import Carousel from './Carousel.jsx'
 
-// import clearviewSlide1 from '../images/ClearView_Slide1.png'
+import clearviewSlide1 from '../images/ClearView_Slide1.png'
+import clearviewSlide2 from '../images/ClearView_Slide2.png'
+import clearviewSlide3 from '../images/ClearView_Slide3.png'
+import clearviewSlide4 from '../images/ClearView_Slide4.png'
 
 function Projects() {
 
@@ -17,11 +20,7 @@ function Projects() {
     setActiveModal(null);
   }
 
-  // const clearviewImages = [
-  //   `${process.env.PUBLIC_URL}/images/ClearView_Slide1.jpg`,
-  //   clearviewSlide1,
-  //   '../images/ClearView_Slide1.png'
-  // ]
+  const clearviewImages = [ clearviewSlide1, clearviewSlide2, clearviewSlide3, clearviewSlide4 ];
 
   return (
     <>
@@ -122,9 +121,9 @@ function Projects() {
         {/* Modal for Card 1 */}
         {activeModal === 'card1' && (
           <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
-            <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4" onClick={e => e.stopPropagation()}>
+            <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
               <h2 className="text-2xl font-bold">ClearView Vision</h2>
-              {/* <div className="h-full"><Carousel images={clearviewImages}></Carousel></div> */}
+              <div className="pt-6 h-96"><Carousel images={ clearviewImages }></Carousel></div>
               <p className="text-gray-700 mt-4">
                 Deployed at <a className="text-second hover:underline" href='https://clearviewatx.com' target="_blank">https://clearviewatx.com</a>. 
                 The project began with myself and another developer searching various different optometrist sites to generate ideas and note down interesting sections / layouts we saw.

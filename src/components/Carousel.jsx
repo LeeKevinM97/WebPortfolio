@@ -4,13 +4,13 @@ const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-fit overflow-hidden h-full grid place-items-center mx-auto">
       {images.map((image, index) => (
         <img
           key={index}
           src={image}
           alt=""
-          className={`absolute transition-transform duration-500 ${index !== currentIndex ? 'translate-x-full' : ''}`}
+          className={`relative h-96 transition-transform duration-500 ${index !== currentIndex ? 'translate-x-full' : ''}`}
         />
       ))}
 
