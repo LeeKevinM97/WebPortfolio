@@ -228,15 +228,18 @@ function Projects() {
         {activeModal === 'card5' && (
           <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
             <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
-              <h2 className="text-2xl font-bold text-center">Database System Concepts & Design</h2>
+              <h2 className="text-2xl font-bold text-center">Game Artificial Intelligence</h2>
               <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto">
                 <video controls className="relative mx-auto lg:h-96 h-auto w-auto">
                   <source src={require("../images/DBS.mp4")} type="video/mp4"/>
                 </video>
                 </div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: C#, SQL, SQL Server Management Studio, Azure<br/>
-                Development of advanced Artificial Intelligence algorithms that guide the behavior for minions in a Dodgeball game.
+                Technologies: C#, Unity<br/>
+                1. Development of advanced Artificial Intelligence algorithms that guide the behavior for minions in a Dodgeball game.
+                Utilized Finite State Machines to create states and transitions for optimal minion behavior.
+                Generated strategy to prioritize saving teammates and optimizing ball usage.
+                Placed in top 8 of ~ graduate students.
                 Implementation of Artificial Intelligence driven control mechanics for an autonomous car navigating a virtual track.
               </p>
               {/* <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button> */}
