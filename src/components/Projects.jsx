@@ -33,9 +33,9 @@ function Projects() {
 
         {/* Introduction for Projects Page */}
         <h1 className="text-4xl text-center font-semibold mb-6 text-fourth Roboto">Projects</h1>
-          <div className='w-full mt-8 px-20 scp text-white bg-first break-word grid place-items-center'>
-            <p>Below are cards displaying coding projects I have completed in the past. Feel free to click on a card to view additional information.</p>
-          </div>
+        <div className='w-full mt-8 px-20 scp text-white bg-first break-word grid place-items-center'>
+          <p>Below are cards displaying coding projects / assignments I have completed. Feel free to click on a card to view additional information.</p>
+        </div>
 
         {/* Grid of Cards */}
         <div className="container mx-auto px-4 py-16">
@@ -51,11 +51,13 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">ClearView Vision</h2>
                 <p className="mt-2 text-white scp">
-                  Freelance project to develop a website for a new business owner in Austin, TX.
+                  Freelance project. <br/>
+                  Given the task to develop a website for a new business owner in Austin, TX.
                   Gathered a team including another Developer and a UX/UI Designer to design, develop, and deploy the website at https://clearviewatx.com.  
                 </p>
               </div>
             </div>
+
 
             {/* Card 2 */}
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card2')}>
@@ -67,12 +69,13 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Data & Visual Analytics</h2>
                 <p className="mt-2 text-white scp">
-                  OMSCS Georgia Tech Coursework Project.
+                  OMSCS Georgia Tech Coursework Project. <br/>
                   My team of 5 created a dashboard analyzing different aspects of National Fire Incident Reporting System (NFIRS) dataset.
                   Goal was to explore any large dataset and generate useful visualizations.
                 </p>
               </div>
             </div>
+
 
             {/* Card 3 */}
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card3')}>
@@ -84,12 +87,13 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Database System Concepts & Design</h2>
                 <p className="mt-2 text-white scp">
-                OMSCS Georgia Tech Coursework Project.
+                OMSCS Georgia Tech Coursework Project. <br/>
                 Given customer requirements to develop an application for trading board games.
                 Specific customer constraints such as functions to search zip codes, usernames, etc.
                 </p>
               </div>
             </div>
+
 
             {/* Card 4 */}
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card4')}>
@@ -101,12 +105,12 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Computer Vision</h2>
                 <p className="mt-2 text-white scp">
-                  OMSCS Georgia Tech Coursework Project.
-                  My team of 5 created a dashboard analyzing different aspects of National Fire Incident Reporting System (NFIRS) dataset.
-                  Goal was to explore any large dataset and generate useful visualizations.
+                  
+                  
                 </p>
               </div>
             </div>
+
 
             {/* Card 5 */}
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card5')}>
@@ -118,16 +122,17 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Game Artificial Intelligence</h2>
                 <p className="mt-2 text-white scp">
-                  Freelance project to develop a website for a new business owner.
-                  Gathered a team including another Developer and a UX/UI Designer to design, develop, and deploy the website.
+                  OMSCS Georgia Tech Coursework Homework. <br/>
+                  In this course focused on Unity development, two homework assignment / projects particularly entrigued me.
+                  Development of behavior for minions in a dodgeball game and driving control mechanics for an autonomous vehicle navigating a virtual track.
                 </p>
               </div>
             </div>
 
-            {/* ... Similarly add more cards as needed */}
-
           </div>
         </div>
+
+
 
         {/* Modal for Card 1 */}
         {activeModal === 'card1' && (
@@ -149,6 +154,7 @@ function Projects() {
           </div>
         )}
 
+
         {/* Modal for Card 2 */}
         {activeModal === 'card2' && (
           <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
@@ -169,6 +175,7 @@ function Projects() {
           </div>
         )}
 
+
         {/* Modal for Card 3 */}
         {activeModal === 'card3' && (
           <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
@@ -186,6 +193,51 @@ function Projects() {
                 Created an Extended Entity Relationship (EER) to understand relationships between data tables, primary keys, foreign keys, and cardinality ratios.
                 Then an Instance Focused Diagram (IFD) was developed to better understand functionality and database transactions.
                 With all the schemas built and hosted through Azure SQL Database, our team created an application through C# Windows Forms to showcase our final product.
+              </p>
+              {/* <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button> */}
+            </div>
+          </div>
+        )}
+
+
+        {/* Modal for Card 4 */}
+        {activeModal === 'card4' && (
+          <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
+            <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
+              <h2 className="text-2xl font-bold text-center">Database System Concepts & Design</h2>
+              <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto">
+                <video controls className="relative mx-auto lg:h-96 h-auto w-auto">
+                  <source src={require("../images/DBS.mp4")} type="video/mp4"/>
+                </video>
+                </div>
+              <p className="text-gray-700 mt-4 scp">
+                Technologies: C#, SQL, SQL Server Management Studio, Azure<br/>
+                Project scope was to design and build an application from the ground up including database architecture.
+                Customer specifications were given to us for certain functionalities, restrictions, etc.
+                Created an Extended Entity Relationship (EER) to understand relationships between data tables, primary keys, foreign keys, and cardinality ratios.
+                Then an Instance Focused Diagram (IFD) was developed to better understand functionality and database transactions.
+                With all the schemas built and hosted through Azure SQL Database, our team created an application through C# Windows Forms to showcase our final product.
+              </p>
+              {/* <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button> */}
+            </div>
+          </div>
+        )}
+
+
+        {/* Modal for Card 5 */}
+        {activeModal === 'card5' && (
+          <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
+            <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
+              <h2 className="text-2xl font-bold text-center">Database System Concepts & Design</h2>
+              <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto">
+                <video controls className="relative mx-auto lg:h-96 h-auto w-auto">
+                  <source src={require("../images/DBS.mp4")} type="video/mp4"/>
+                </video>
+                </div>
+              <p className="text-gray-700 mt-4 scp">
+                Technologies: C#, SQL, SQL Server Management Studio, Azure<br/>
+                Development of advanced Artificial Intelligence algorithms that guide the behavior for minions in a Dodgeball game.
+                Implementation of Artificial Intelligence driven control mechanics for an autonomous car navigating a virtual track.
               </p>
               {/* <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button> */}
             </div>
