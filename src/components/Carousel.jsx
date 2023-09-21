@@ -1,18 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  useEffect(() => {
+    console.log(currentIndex);
+  }, [currentIndex]);
+
   return (
-    <div className="relative w-fit overflow-hidden h-full grid place-items-center mx-auto">
-      {images.map((image, index) => (
-        <img
-          key={index}
-          src={image}
-          alt=""
-          className={`relative h-96 transition-transform duration-500 ${index !== currentIndex ? 'translate-x-full' : ''}`}
-        />
-      ))}
+    <div className="relative overflow-hidden h-full grid place-items-center mx-auto w-auto">
+      <div 
+        style={{ transform: `translateX(-${currentIndex * 100}%)` }} 
+        className="flex transition-transform duration-500"
+      >
+        {images.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt=""
+            className="relative h-96 w-auto"
+          />
+        ))}
+      </div>
 
       <button
         className="absolute left-0 z-10 p-4"

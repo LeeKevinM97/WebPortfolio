@@ -7,6 +7,10 @@ import clearviewSlide2 from '../images/ClearView_Slide2.png'
 import clearviewSlide3 from '../images/ClearView_Slide3.png'
 import clearviewSlide4 from '../images/ClearView_Slide4.png'
 
+import DVASlide0 from '../images/DVA_Card.png'
+import DVASlide1 from '../images/DVA_Slide1.png'
+import DVASlide2 from '../images/DVA_Slide2.png'
+
 function Projects() {
 
   // Create a React hook, variable activeModal, modified by setActiveModal, set to default null
@@ -21,10 +25,17 @@ function Projects() {
   }
 
   const clearviewImages = [ clearviewSlide1, clearviewSlide2, clearviewSlide3, clearviewSlide4 ];
+  const DVAImages = [DVASlide0, DVASlide1, DVASlide2];
 
   return (
     <>
-      <div className="bg-first h-screen">
+      <div className="bg-first h-fit">
+
+        {/* Introduction for Projects Page */}
+        <h1 className="text-4xl text-center font-semibold mb-6 text-fourth Roboto">Projects</h1>
+          <div className='w-fit mt-12 p-4 mx-[10%] scp text-white bg-first break-word grid place-items-center'>
+            <p>Below are cards displaying coding projects I have completed in the past. Feel free to click on a card to view additional information.</p>
+          </div>
 
         {/* Grid of Cards */}
         <div className="container mx-auto px-4 py-16">
@@ -39,7 +50,7 @@ function Projects() {
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">ClearView Vision</h2>
-                <p className="mt-2 text-white">
+                <p className="mt-2 text-white scp">
                   Freelance project to develop a website for a new business owner in Austin, TX.
                   Gathered a team including another Developer and a UX/UI Designer to design, develop, and deploy the website at https://clearviewatx.com.  
                 </p>
@@ -55,7 +66,7 @@ function Projects() {
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Data & Visual Analytics</h2>
-                <p className="mt-2 text-white">
+                <p className="mt-2 text-white scp">
                   OMSCS Georgia Tech Coursework Project.
                   My team of 5 created a dashboard analyzing different aspects of National Fire Incident Reporting System (NFIRS) dataset.
                   Goal was to explore any large dataset and generate useful visualizations.
@@ -64,15 +75,15 @@ function Projects() {
             </div>
 
             {/* Card 3 */}
-            <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card1')}>
+            <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card3')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
-                <img className='h-40 w-auto my-auto invert' src={require("../images/ClearView_Card.png")} alt='ClearView Vision Logo'></img>
+                <img className='h-40 w-auto my-auto' src={require("../images/DBS_Card.png")} alt='DBS Card Image'></img>
               </div>
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Database System Concepts & Design</h2>
-                <p className="mt-2 text-white">
+                <p className="mt-2 text-white scp">
                 OMSCS Georgia Tech Coursework Project.
                 Given customer requirements to develop an application for trading board games.
                 Specific customer constraints such as functions to search zip codes, usernames, etc.
@@ -81,7 +92,7 @@ function Projects() {
             </div>
 
             {/* Card 4 */}
-            <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card2')}>
+            <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card4')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
                 <img className='h-40 w-auto my-auto' src={require("../images/DVA_Card.png")} alt='Data & Visual Analytics Main Page'></img>
@@ -89,7 +100,7 @@ function Projects() {
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Computer Vision</h2>
-                <p className="mt-2 text-white">
+                <p className="mt-2 text-white scp">
                   OMSCS Georgia Tech Coursework Project.
                   My team of 5 created a dashboard analyzing different aspects of National Fire Incident Reporting System (NFIRS) dataset.
                   Goal was to explore any large dataset and generate useful visualizations.
@@ -98,7 +109,7 @@ function Projects() {
             </div>
 
             {/* Card 5 */}
-            <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card1')}>
+            <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card5')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
                 <img className='h-40 w-auto my-auto invert' src={require("../images/ClearView_Card.png")} alt='ClearView Vision Logo'></img>
@@ -106,7 +117,7 @@ function Projects() {
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Game Artificial Intelligence</h2>
-                <p className="mt-2 text-white">
+                <p className="mt-2 text-white scp">
                   Freelance project to develop a website for a new business owner.
                   Gathered a team including another Developer and a UX/UI Designer to design, develop, and deploy the website.
                 </p>
@@ -122,9 +133,10 @@ function Projects() {
         {activeModal === 'card1' && (
           <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
             <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
-              <h2 className="text-2xl font-bold">ClearView Vision</h2>
-              <div className="pt-6 h-96"><Carousel images={ clearviewImages }></Carousel></div>
-              <p className="text-gray-700 mt-4">
+              <h2 className="text-2xl font-bold text-center">ClearView Vision</h2>
+              <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto"><Carousel images={ clearviewImages }></Carousel></div>
+              <p className="text-gray-700 mt-4 scp">
+                Technologies: Tailwind, React, JSX, HTML, CSS<br/>
                 Deployed at <a className="text-second hover:underline" href='https://clearviewatx.com' target="_blank">https://clearviewatx.com</a>. 
                 The project began with myself and another developer searching various different optometrist sites to generate ideas and note down interesting sections / layouts we saw.
                 A basic wireframe was created through excalidraw to jot down the basic blueprint. 
@@ -132,7 +144,7 @@ function Projects() {
                 Through contacts, we found a UX / UI Designer looking to build on their portfolio and asked for her to join the team. 
                 With a proper Figma drawn out, the whole website was revamped with full functionality and deployed through github pages and the purchased GoDaddy domain.
               </p>
-              <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button>
+              {/* <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button> */}
             </div>
           </div>
         )}
@@ -140,18 +152,45 @@ function Projects() {
         {/* Modal for Card 2 */}
         {activeModal === 'card2' && (
           <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
-            <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4" onClick={e => e.stopPropagation()}>
-              <h2 className="text-2xl font-bold">Data & Visual Analytics</h2>
-              <p className="text-gray-700 mt-4">
-                Website for ClearView Vision a new business that opened in Austin, TX.
-                The site contains information regarding location, contact, services, insurances, and scheduling paired with a third party landing page.
+            <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
+              <h2 className="text-2xl font-bold text-center">Data & Visual Analytics</h2>
+              <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto"><Carousel images={ DVAImages }></Carousel></div>
+              <p className="text-gray-700 mt-4 scp">
+                Technologies: Flask, Bootstrap, Python<br/>
+                Previously deployed through Heroku at https://gatech-dva.herokuapp.com/ when deployment was free.
+                Dashboard is not live anymore, but easily ran in developer mode.
+                Project scope for this Georgia Tech course was to explore a large dataset to develop interesting findings and visualizations.
+                My team of 5 students, including myself, worked with National Fire Incident Reporting System data to study different aspects of fires.
+                Python was used for the backend with packages like scikit-learn, ArcGIS, matplotlib to generate regression models, heatmaps, waterfall graphs, and choropleths depicting our dataset.
+                With Bootstrap and Flask, we were able to create a dashboard with tabs to showcase different visualization perspectives of the data.
               </p>
-              <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button>
+              {/* <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button> */}
             </div>
           </div>
         )}
 
-        {/* ... Similarly add modals for other cards as needed */}
+        {/* Modal for Card 3 */}
+        {activeModal === 'card3' && (
+          <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
+            <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
+              <h2 className="text-2xl font-bold text-center">Database System Concepts & Design</h2>
+              <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto">
+                <video controls className="relative mx-auto lg:h-96 h-auto w-auto">
+                  <source src={require("../images/DBS.mp4")} type="video/mp4"/>
+                </video>
+                </div>
+              <p className="text-gray-700 mt-4 scp">
+                Technologies: C#, SQL, SQL Server Management Studio, Azure<br/>
+                Project scope was to design and build an application from the ground up including database architecture.
+                Customer specifications were given to us for certain functionalities, restrictions, etc.
+                Created an Extended Entity Relationship (EER) to understand relationships between data tables, primary keys, foreign keys, and cardinality ratios.
+                Then an Instance Focused Diagram (IFD) was developed to better understand functionality and database transactions.
+                With all the schemas built and hosted through Azure SQL Database, our team created an application through C# Windows Forms to showcase our final product.
+              </p>
+              {/* <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button> */}
+            </div>
+          </div>
+        )}
 
       </div>
     </>
