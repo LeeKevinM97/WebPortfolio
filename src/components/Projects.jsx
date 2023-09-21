@@ -33,7 +33,7 @@ function Projects() {
 
         {/* Introduction for Projects Page */}
         <h1 className="text-4xl text-center font-semibold mb-6 text-fourth Roboto">Projects</h1>
-          <div className='w-fit mt-12 p-4 mx-[10%] scp text-white bg-first break-word grid place-items-center'>
+          <div className='w-full mt-8 px-20 scp text-white bg-first break-word grid place-items-center'>
             <p>Below are cards displaying coding projects I have completed in the past. Feel free to click on a card to view additional information.</p>
           </div>
 
