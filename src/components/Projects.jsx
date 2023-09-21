@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
-import Carousel from './Carousel.jsx'
+import CarouselImages from './CarouselImages.jsx'
+import CarouselVideos from './CarouselVideos.jsx'
 
 import clearviewSlide1 from '../images/ClearView_Slide1.png'
 import clearviewSlide2 from '../images/ClearView_Slide2.png'
@@ -10,6 +11,9 @@ import clearviewSlide4 from '../images/ClearView_Slide4.png'
 import DVASlide0 from '../images/DVA_Card.png'
 import DVASlide1 from '../images/DVA_Slide1.png'
 import DVASlide2 from '../images/DVA_Slide2.png'
+
+import GameAI1 from '../images/GameAI_Dodgeball.mp4'
+import GameAI2 from '../images/GameAI_RaceTrack.mp4'
 
 function Projects() {
 
@@ -24,8 +28,9 @@ function Projects() {
     setActiveModal(null);
   }
 
-  const clearviewImages = [ clearviewSlide1, clearviewSlide2, clearviewSlide3, clearviewSlide4 ];
+  const ClearviewImages = [clearviewSlide1, clearviewSlide2, clearviewSlide3, clearviewSlide4];
   const DVAImages = [DVASlide0, DVASlide1, DVASlide2];
+  const GameAI = [GameAI1, GameAI2]
 
   return (
     <>
@@ -51,9 +56,9 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">ClearView Vision</h2>
                 <p className="mt-2 text-white scp">
-                  Freelance project. <br/>
+                  Freelance project. <br />
                   Given the task to develop a website for a new business owner in Austin, TX.
-                  Gathered a team including another Developer and a UX/UI Designer to design, develop, and deploy the website at https://clearviewatx.com.  
+                  Gathered a team including another Developer and a UX/UI Designer to design, develop, and deploy the website at https://clearviewatx.com.
                 </p>
               </div>
             </div>
@@ -69,7 +74,7 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Data & Visual Analytics</h2>
                 <p className="mt-2 text-white scp">
-                  OMSCS Georgia Tech Coursework Project. <br/>
+                  OMSCS Georgia Tech Coursework Project. <br />
                   My team of 5 created a dashboard analyzing different aspects of National Fire Incident Reporting System (NFIRS) dataset.
                   Goal was to explore any large dataset and generate useful visualizations.
                 </p>
@@ -87,9 +92,9 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Database System Concepts & Design</h2>
                 <p className="mt-2 text-white scp">
-                OMSCS Georgia Tech Coursework Project. <br/>
-                Given customer requirements to develop an application for trading board games.
-                Specific customer constraints such as functions to search zip codes, usernames, etc.
+                  OMSCS Georgia Tech Coursework Project. <br />
+                  Given customer requirements to develop an application for trading board games.
+                  Specific customer constraints such as functions to search zip codes, usernames, etc.
                 </p>
               </div>
             </div>
@@ -105,8 +110,8 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Computer Vision</h2>
                 <p className="mt-2 text-white scp">
-                  
-                  
+
+
                 </p>
               </div>
             </div>
@@ -122,7 +127,7 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Game Artificial Intelligence</h2>
                 <p className="mt-2 text-white scp">
-                  OMSCS Georgia Tech Coursework Homework. <br/>
+                  OMSCS Georgia Tech Coursework Homework. <br />
                   In this course focused on Unity development, two homework assignment / projects particularly entrigued me.
                   Development of behavior for minions in a dodgeball game and driving control mechanics for an autonomous vehicle navigating a virtual track.
                 </p>
@@ -139,14 +144,14 @@ function Projects() {
           <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
             <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
               <h2 className="text-2xl font-bold text-center">ClearView Vision</h2>
-              <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto"><Carousel images={ clearviewImages }></Carousel></div>
+              <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto"><CarouselImages images={ClearviewImages}></CarouselImages></div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: Tailwind, React, JSX, HTML, CSS<br/>
-                Deployed at <a className="text-second hover:underline" href='https://clearviewatx.com' target="_blank">https://clearviewatx.com</a>. 
+                Technologies: Tailwind, React, JSX, HTML, CSS<br />
+                Deployed at <a className="text-second hover:underline" href='https://clearviewatx.com' target="_blank">https://clearviewatx.com</a>.
                 The project began with myself and another developer searching various different optometrist sites to generate ideas and note down interesting sections / layouts we saw.
-                A basic wireframe was created through excalidraw to jot down the basic blueprint. 
-                While working on initial drafts of the website which were scrapped, we noticed the need for a UX / UI Designer due to our non-optimal theme selection and sectional layout. 
-                Through contacts, we found a UX / UI Designer looking to build on their portfolio and asked for her to join the team. 
+                A basic wireframe was created through excalidraw to jot down the basic blueprint.
+                While working on initial drafts of the website which were scrapped, we noticed the need for a UX / UI Designer due to our non-optimal theme selection and sectional layout.
+                Through contacts, we found a UX / UI Designer looking to build on their portfolio and asked for her to join the team.
                 With a proper Figma drawn out, the whole website was revamped with full functionality and deployed through github pages and the purchased GoDaddy domain.
               </p>
               {/* <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button> */}
@@ -160,9 +165,9 @@ function Projects() {
           <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
             <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
               <h2 className="text-2xl font-bold text-center">Data & Visual Analytics</h2>
-              <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto"><Carousel images={ DVAImages }></Carousel></div>
+              <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto"><CarouselImages images={DVAImages}></CarouselImages></div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: Flask, Bootstrap, Python<br/>
+                Technologies: Flask, Bootstrap, Python<br />
                 Previously deployed through Heroku at https://gatech-dva.herokuapp.com/ when deployment was free.
                 Dashboard is not live anymore, but easily ran in developer mode.
                 Project scope for this Georgia Tech course was to explore a large dataset to develop interesting findings and visualizations.
@@ -184,10 +189,11 @@ function Projects() {
               <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto">
                 <video controls className="relative mx-auto lg:h-96 h-auto w-auto">
                   <source src={require("../images/DBS.mp4")} type="video/mp4"/>
+                  Your browser does not support the video tag.
                 </video>
-                </div>
+              </div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: C#, SQL, SQL Server Management Studio, Azure<br/>
+                Technologies: C#, SQL, SQL Server Management Studio, Azure<br />
                 Project scope was to design and build an application from the ground up including database architecture.
                 Customer specifications were given to us for certain functionalities, restrictions, etc.
                 Created an Extended Entity Relationship (EER) to understand relationships between data tables, primary keys, foreign keys, and cardinality ratios.
@@ -207,11 +213,11 @@ function Projects() {
               <h2 className="text-2xl font-bold text-center">Database System Concepts & Design</h2>
               <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto">
                 <video controls className="relative mx-auto lg:h-96 h-auto w-auto">
-                  <source src={require("../images/DBS.mp4")} type="video/mp4"/>
+                  <source src={require("../images/DBS.mp4")} type="video/mp4" />
                 </video>
-                </div>
+              </div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: C#, SQL, SQL Server Management Studio, Azure<br/>
+                Technologies: C#, SQL, SQL Server Management Studio, Azure<br />
                 Project scope was to design and build an application from the ground up including database architecture.
                 Customer specifications were given to us for certain functionalities, restrictions, etc.
                 Created an Extended Entity Relationship (EER) to understand relationships between data tables, primary keys, foreign keys, and cardinality ratios.
@@ -229,18 +235,16 @@ function Projects() {
           <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
             <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
               <h2 className="text-2xl font-bold text-center">Game Artificial Intelligence</h2>
-              <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto">
-                <video controls className="relative mx-auto lg:h-96 h-auto w-auto">
-                  <source src={require("../images/DBS.mp4")} type="video/mp4"/>
-                </video>
-                </div>
+              <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[680px] h-auto w-auto"><CarouselVideos videos={GameAI}></CarouselVideos></div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: C#, Unity<br/>
+                Technologies: C#, Unity<br />
                 1. Development of advanced Artificial Intelligence algorithms that guide the behavior for minions in a Dodgeball game.
                 Utilized Finite State Machines to create states and transitions for optimal minion behavior.
                 Generated strategy to prioritize saving teammates and optimizing ball usage.
-                Placed in top 8 of ~ graduate students.
-                Implementation of Artificial Intelligence driven control mechanics for an autonomous car navigating a virtual track.
+                Placed in top 8 of ~140 participating graduate students in an optional tournament.
+                My opponent's control of the balls on the field and dodging transitions were much better and was later crowned the champion.
+                2. Implementation of Artificial Intelligence driven control mechanics for an autonomous car navigating a virtual track.
+                Created Fuzzy Logic for a vehicle to make decisions regarding speed, acceleration, and steering using environmental variables.
               </p>
               {/* <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button> */}
             </div>
