@@ -56,7 +56,7 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">ClearView Vision</h2>
                 <p className="mt-2 text-white scp">
-                  Freelance project. <br />
+                  Freelance project. <br/>
                   Given the task to develop a website for a new business owner in Austin, TX.
                   Gathered a team including another Developer and a UX/UI Designer to design, develop, and deploy the website at https://clearviewatx.com.
                 </p>
@@ -74,7 +74,7 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Data & Visual Analytics</h2>
                 <p className="mt-2 text-white scp">
-                  OMSCS Georgia Tech Coursework Project. <br />
+                  OMSCS Georgia Tech Coursework Project. <br/>
                   My team of 5 created a dashboard analyzing different aspects of National Fire Incident Reporting System (NFIRS) dataset.
                   Goal was to explore any large dataset and generate useful visualizations.
                 </p>
@@ -92,7 +92,7 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Database System Concepts & Design</h2>
                 <p className="mt-2 text-white scp">
-                  OMSCS Georgia Tech Coursework Project. <br />
+                  OMSCS Georgia Tech Coursework Project. <br/>
                   Given customer requirements to develop an application for trading board games.
                   Specific customer constraints such as functions to search zip codes, usernames, etc.
                 </p>
@@ -110,8 +110,9 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Computer Vision</h2>
                 <p className="mt-2 text-white scp">
-
-
+                  OMSCS Georgia Tech Coursework Project. <br/>
+                  From the final project choices, I chose to learn and implement Stereo Correspondence.
+                  This is the action of algorithmically identify 
                 </p>
               </div>
             </div>
@@ -121,19 +122,18 @@ function Projects() {
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card5')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
-                <img className='h-40 w-auto my-auto invert' src={require("../images/ClearView_Card.png")} alt='ClearView Vision Logo'></img>
+                <img className='h-40 w-auto my-auto' src={require("../images/GameAI_Card.png")} alt='ClearView Vision Logo'></img>
               </div>
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Game Artificial Intelligence</h2>
                 <p className="mt-2 text-white scp">
-                  OMSCS Georgia Tech Coursework Homework. <br />
+                  OMSCS Georgia Tech Coursework Homework. <br/>
                   In this course focused on Unity development, two homework assignment / projects particularly entrigued me.
                   Development of behavior for minions in a dodgeball game and driving control mechanics for an autonomous vehicle navigating a virtual track.
                 </p>
               </div>
             </div>
-
           </div>
         </div>
 
@@ -146,7 +146,7 @@ function Projects() {
               <h2 className="text-2xl font-bold text-center">ClearView Vision</h2>
               <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto"><CarouselImages images={ClearviewImages}></CarouselImages></div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: Tailwind, React, JSX, HTML, CSS<br />
+                Technologies: Tailwind, React, JSX, HTML, CSS<br/>
                 Deployed at <a className="text-second hover:underline" href='https://clearviewatx.com' target="_blank">https://clearviewatx.com</a>.
                 The project began with myself and another developer searching various different optometrist sites to generate ideas and note down interesting sections / layouts we saw.
                 A basic wireframe was created through excalidraw to jot down the basic blueprint.
@@ -167,7 +167,7 @@ function Projects() {
               <h2 className="text-2xl font-bold text-center">Data & Visual Analytics</h2>
               <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto"><CarouselImages images={DVAImages}></CarouselImages></div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: Flask, Bootstrap, Python<br />
+                Technologies: Flask, Bootstrap, Python<br/>
                 Previously deployed through Heroku at https://gatech-dva.herokuapp.com/ when deployment was free.
                 Dashboard is not live anymore, but easily ran in developer mode.
                 Project scope for this Georgia Tech course was to explore a large dataset to develop interesting findings and visualizations.
@@ -193,7 +193,7 @@ function Projects() {
                 </video>
               </div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: C#, SQL, SQL Server Management Studio, Azure<br />
+                Technologies: C#, SQL, SQL Server Management Studio, Azure<br/>
                 Project scope was to design and build an application from the ground up including database architecture.
                 Customer specifications were given to us for certain functionalities, restrictions, etc.
                 Created an Extended Entity Relationship (EER) to understand relationships between data tables, primary keys, foreign keys, and cardinality ratios.
@@ -210,14 +210,14 @@ function Projects() {
         {activeModal === 'card4' && (
           <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={closeModal}>
             <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
-              <h2 className="text-2xl font-bold text-center">Database System Concepts & Design</h2>
+              <h2 className="text-2xl font-bold text-center">Computer Vision</h2>
               <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto">
                 <video controls className="relative mx-auto lg:h-96 h-auto w-auto">
                   <source src={require("../images/DBS.mp4")} type="video/mp4" />
                 </video>
               </div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: C#, SQL, SQL Server Management Studio, Azure<br />
+                Technologies: C#, SQL, SQL Server Management Studio, Azure<br/>
                 Project scope was to design and build an application from the ground up including database architecture.
                 Customer specifications were given to us for certain functionalities, restrictions, etc.
                 Created an Extended Entity Relationship (EER) to understand relationships between data tables, primary keys, foreign keys, and cardinality ratios.
@@ -237,7 +237,7 @@ function Projects() {
               <h2 className="text-2xl font-bold text-center">Game Artificial Intelligence</h2>
               <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[680px] h-auto w-auto"><CarouselVideos videos={GameAI}></CarouselVideos></div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: C#, Unity<br />
+                Technologies: C#, Unity<br/>
                 1. Development of advanced Artificial Intelligence algorithms that guide the behavior for minions in a Dodgeball game.
                 Utilized Finite State Machines to create states and transitions for optimal minion behavior.
                 Generated strategy to prioritize saving teammates and optimizing ball usage.
