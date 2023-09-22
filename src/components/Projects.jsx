@@ -112,7 +112,7 @@ function Projects() {
                 <p className="mt-2 text-white scp">
                   OMSCS Georgia Tech Coursework Project. <br/>
                   From the final project choices, I chose to learn and implement Stereo Correspondence.
-                  This is the action of algorithmically identify 
+                  This is the action of algorithmically identify depth in images.
                 </p>
               </div>
             </div>
