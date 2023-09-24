@@ -3,6 +3,16 @@ import React, { useState, useEffect } from 'react';
 const CarouselImages = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const autoScroll = () => {
+    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+  };
+
+  useEffect(() => {
+    const timer = setInterval(autoScroll, 12000); // Change image every 3 seconds
+
+    return () => clearInterval(timer); // Clear the timer when the component is unmounted or when currentIndex changes
+  }, [currentIndex, images.length]);
+
   return (
     <div className="relative overflow-hidden h-full grid place-items-center mx-auto w-auto">
       <div 

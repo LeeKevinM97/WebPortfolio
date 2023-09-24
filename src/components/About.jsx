@@ -13,7 +13,7 @@ function About() {
                             During my career in the Manufacturing Industry as an Engineer, I noticed a plethora of repetitive data collection and actions being done to fulfill daily job duties.
                             This sprouted an interest in automation of tasks and led me into learning VBA / CMD scripts to start.
                             From there, I moved onto developing automated monitoring scripts to email / message alerts and generating dashboards for ease of process monitoring.
-                            Now, halfway through a Masters of Computer Science, I am ready for a transition into Full Stack Development or Data Engineering.
+                            Now, halfway through a Masters of Computer Science, I am ready for a transition into Full Stack Development and/or Data Engineering.
                             With a unique blend of engineering principles and computer science knowledge, I excel at analytical problem-solving and developing efficient software solutions.
                             An intrigued, continuous learner, I am always curious about learning the latest technological trends.
                             Eager to apply these skills, I look forward to driving technical innovation and process improvements in challenging environments.

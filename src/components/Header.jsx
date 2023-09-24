@@ -122,9 +122,9 @@ function Header() {
           className="bg-second p-4 absolute rounded-xl cursor-pointer top-5 right-5 hover:p-5"
         >
           {darkTheme === false ? (
-            <FiMoon className="text-xl text-fourth" />
+            <FiMoon className="text-xl text-white" />
           ) : (
-            <FiSun className="text-xl text-fourth" />
+            <FiSun className="text-xl text-white" />
           )}
 
         </div>
