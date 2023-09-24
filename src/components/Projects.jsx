@@ -39,7 +39,7 @@ function Projects() {
         {/* Introduction for Projects Page */}
         <h1 className="text-4xl text-center font-semibold mb-6 text-fourth Roboto">Projects</h1>
         <div className='w-full mt-8 px-20 scp text-white bg-first break-word grid place-items-center'>
-          <p>Below are cards displaying coding projects / assignments I have completed. Feel free to click on a card to view additional information.</p>
+          <p>Below are cards displaying coding my projects / assignments. Please click on a card to view additional information.</p>
         </div>
 
         {/* Grid of Cards */}
@@ -104,7 +104,7 @@ function Projects() {
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card4')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
-                <img className='h-40 w-auto my-auto' src={require("../images/DVA_Card.png")} alt='Data & Visual Analytics Main Page'></img>
+                <img className='h-40 w-auto my-auto' src={require("../images/CV_Card.png")} alt='Data & Visual Analytics Main Page'></img>
               </div>
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
@@ -168,8 +168,8 @@ function Projects() {
               <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto"><CarouselImages images={DVAImages}></CarouselImages></div>
               <p className="text-gray-700 mt-4 scp">
                 Technologies: Flask, Bootstrap, Python<br/>
-                Previously deployed through Heroku at https://gatech-dva.herokuapp.com/ when deployment was free.
-                Dashboard is not live anymore, but easily ran in developer mode.
+                Previously deployed through Heroku at https://gatech-dva.herokuapp.com/.
+                The dashboard is not live anymore after Heroku revoked free project deployments, but is easily accessable locally.
                 Project scope for this Georgia Tech course was to explore a large dataset to develop interesting findings and visualizations.
                 My team of 5 students, including myself, worked with National Fire Incident Reporting System data to study different aspects of fires.
                 Python was used for the backend with packages like scikit-learn, ArcGIS, matplotlib to generate regression models, heatmaps, waterfall graphs, and choropleths depicting our dataset.
@@ -212,17 +212,15 @@ function Projects() {
             <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
               <h2 className="text-2xl font-bold text-center">Computer Vision</h2>
               <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto">
-                <video controls className="relative mx-auto lg:h-96 h-auto w-auto">
-                  <source src={require("../images/DBS.mp4")} type="video/mp4" />
-                </video>
+                <iframe src="/CS6474_FinalReport.pdf" class="w-full h-full border-none"></iframe>
               </div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: Python, LaTeX<br/>
+                Technologies: Python, OpenCV, LaTeX<br/>
                 For this final project, students were given topic options to do in depth research, implement, and discuss the results and outputs.
                 My chosen topic, Stereo Correspondence, revolves around the concept that computers are unable to recognize depth perception with singular images that solely contain information on pixel intensity and color.
                 With stereo images (two images on a rectified planar), we can algorithmically produce a disparity map (image depth).
                 After research on state of the art methods, I utilized a combination of hamming distance, census transform, and semi-global matching to create these disparity maps.
-                My final project report is viewable <a className="text-second hover:underline" href="/myfile.pdf" download target="_blank" rel="noopener noreferrer">here</a>.
+                My final project report is downloadable <a className="text-second hover:underline" href={require("../images/CS6474_FinalReport.pdf")} download target="_blank" rel="noopener noreferrer">here</a> explaining methodology, outputs, results, and insights to the process.
               </p>
               {/* <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button> */}
             </div>
