@@ -217,12 +217,12 @@ function Projects() {
                 </video>
               </div>
               <p className="text-gray-700 mt-4 scp">
-                Technologies: C#, SQL, SQL Server Management Studio, Azure<br/>
-                Project scope was to design and build an application from the ground up including database architecture.
-                Customer specifications were given to us for certain functionalities, restrictions, etc.
-                Created an Extended Entity Relationship (EER) to understand relationships between data tables, primary keys, foreign keys, and cardinality ratios.
-                Then an Instance Focused Diagram (IFD) was developed to better understand functionality and database transactions.
-                With all the schemas built and hosted through Azure SQL Database, our team created an application through C# Windows Forms to showcase our final product.
+                Technologies: Python, LaTeX<br/>
+                For this final project, students were given topic options to do in depth research, implement, and discuss the results and outputs.
+                My chosen topic, Stereo Correspondence, revolves around the concept that computers are unable to recognize depth perception with singular images that solely contain information on pixel intensity and color.
+                With stereo images (two images on a rectified planar), we can algorithmically produce a disparity map (image depth).
+                After research on state of the art methods, I utilized a combination of hamming distance, census transform, and semi-global matching to create these disparity maps.
+                My final project report is viewable <a className="text-second hover:underline" href="/myfile.pdf" download target="_blank" rel="noopener noreferrer">here</a>.
               </p>
               {/* <button onClick={closeModal} className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Close</button> */}
             </div>
