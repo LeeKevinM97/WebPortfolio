@@ -37,14 +37,14 @@ function Projects() {
       <div className="bg-first h-fit">
 
         {/* Introduction for Projects Page */}
-        <h1 className="text-4xl text-center font-semibold mb-6 text-fourth Roboto">Projects</h1>
-        <div className='w-full mt-8 px-20 scp text-white bg-first break-word grid place-items-center'>
+        <h1 className="text-4xl text-center font-semibold mb-6 text-fourth roboto">Projects</h1>
+        <div className='w-full mt-8 px-20 scp text-white bg-first break-word grid place-items-center text-center'>
           <p>Below are cards displaying coding my projects / assignments. Please click on a card to view additional information.</p>
         </div>
 
         {/* Grid of Cards */}
         <div className="container mx-auto px-4 py-16">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
             {/* Card 1 */}
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card1')}>

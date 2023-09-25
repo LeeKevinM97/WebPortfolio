@@ -6,6 +6,7 @@ import Footer from './components/Footer.jsx';
 import Home from './components/Home.jsx';
 import About from './components/About.jsx'
 import Projects from './components/Projects.jsx';
+import ContactForm from './components/ContactForm.jsx';
 
 import './index.css';
 import './css/Main.css';
@@ -19,6 +20,7 @@ function App() {
       <Route index element={<Home/>}/>
       <Route path="about" element={<About/>}/>
       <Route path="projects" element={<Projects/>}/>
+      <Route path="contact" element={<ContactForm/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

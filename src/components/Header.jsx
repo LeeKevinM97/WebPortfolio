@@ -11,18 +11,12 @@ function Header() {
   // Switch Dark vs. Light
   const [darkTheme, setTheme] = useState(true);
 
-  // --first: #0D2438;
-  // --second: #6F6EFF;
-  // --third: #1E3851;
-  // --fourth: #FFFFFF;
-
   function themeChange() {
     if (darkTheme) {
       setTheme(false);
       document.documentElement.style.setProperty('--first', '#FFFFFF');
       document.documentElement.style.setProperty('--second', '#008080');
       document.documentElement.style.setProperty('--third', '#F7F8FC');
-      // document.documentElement.style.setProperty('--third', '#2F4F4F');
       document.documentElement.style.setProperty('--fourth', '#212E4D');
     } else {
       setTheme(true);
@@ -120,7 +114,7 @@ function Header() {
         <div
           onClick={() => themeChange()}
           aria-label="Theme Switcher"
-          className="bg-second p-4 absolute rounded-xl cursor-pointer top-5 right-5 hover:p-5"
+          className="bg-second p-4 absolute rounded-xl cursor-pointer top-5 right-10 hover:p-5"
         >
           {darkTheme === false ? (
             <FiMoon className="text-xl text-white" />

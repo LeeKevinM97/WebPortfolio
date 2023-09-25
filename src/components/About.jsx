@@ -175,8 +175,7 @@ function About() {
 
                             {/* New Education */}
                             <div className="flex md:contents">
-                                {/* <div className="col-start-11 col-end-13 md:mx-auto relative"> */}
-                                <div className="col-start-11 col-end-13 md:mx-auto row-start-1 row-end-2">
+                                <div className="col-start-11 col-end-13 md:mx-auto row-start-1 row-end-2 mr-6">
                                     <div className="h-full w-6 flex items-center justify-center">
                                         <div className="h-full w-1 bg-second pointer-events-none"></div>
                                     </div>
@@ -210,7 +209,7 @@ function About() {
 
                             {/* New Education */}
                             <div className="flex md:contents">
-                                <div className="col-start-11 col-end-13 md:mx-auto row-start-2 row-end-3">
+                                <div className="col-start-11 col-end-13 md:mx-auto row-start-2 row-end-3 mr-6">
                                     <div className="h-full w-6 flex items-center justify-center">
                                         <div className="h-full w-1 bg-third pointer-events-none"></div>
                                     </div>
