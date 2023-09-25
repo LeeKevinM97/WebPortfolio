@@ -38,7 +38,7 @@ function Projects() {
 
         {/* Introduction for Projects Page */}
         <h1 className="text-4xl text-center font-semibold mb-6 text-fourth roboto">Projects</h1>
-        <div className='w-full mt-8 px-20 scp text-white bg-first break-word grid place-items-center text-center'>
+        <div className='w-full mt-8 px-20 scp text-fourth bg-first break-word grid place-items-center text-center'>
           <p>Below are cards displaying coding my projects / assignments. Please click on a card to view additional information.</p>
         </div>
 

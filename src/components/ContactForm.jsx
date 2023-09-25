@@ -56,8 +56,8 @@ function ContactForm() {
   return (
     <>
       <div className="h-fit w-full py-4 bg-first" id="contactForm">
-        <h1 className="roboto text-4xl my-10 text-center text-white">Get in Touch!</h1>
-        <h2 className="scp text-xl my-10 text-center text-white">Hiring? Questions? <br/> I'd love to hear from you!</h2>
+        <h1 className="text-4xl text-center font-semibold mb-6 text-fourth roboto">Get In Touch!</h1>
+        <h2 className="scp text-xl my-10 text-center text-fourth">Hiring? Questions? <br/> I'd love to hear from you!</h2>
         <form onSubmit={handleSubmit}>
           <div className="flexbox text-center my-6">
             <input className="contactFormInputs lg:w-1/4 md:w-1/3 w-[40%] h-12 mx-[2%] ps-4 bg-third text-white" type="text" placeholder="First Name*" name="firstName" required

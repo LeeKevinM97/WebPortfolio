@@ -17,6 +17,7 @@ function Header() {
       document.documentElement.style.setProperty('--first', '#FFFFFF');
       document.documentElement.style.setProperty('--second', '#008080');
       document.documentElement.style.setProperty('--third', '#F7F8FC');
+      document.documentElement.style.setProperty('--third', '#2F4F4F');
       document.documentElement.style.setProperty('--fourth', '#212E4D');
     } else {
       setTheme(true);

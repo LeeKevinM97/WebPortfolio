@@ -112,7 +112,7 @@ function About() {
                                         <i className="fas fa-check-circle text-white"></i>
                                     </div>
                                 </div>
-                                <div className="bg-third col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-fourth">
+                                <div className="bg-third col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
                                     <h3 className="font-semibold text-lg scp">
                                         Engineering Tutor
                                     </h3>
@@ -145,7 +145,7 @@ function About() {
                                         <i className="fas fa-check-circle text-white"></i>
                                     </div>
                                 </div>
-                                <div className="bg-third col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-fourth">
+                                <div className="bg-third col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
                                     <h3 className="font-semibold text-lg scp">
                                         Internship - Engineering
                                     </h3>
@@ -217,7 +217,7 @@ function About() {
                                         <i className="fas fa-check-circle text-white"></i>
                                     </div>
                                 </div>
-                                <div className="bg-third col-start-2 col-end-11 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-fourth">
+                                <div className="bg-third col-start-2 col-end-11 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
                                     <h3 className="font-semibold text-lg scp">
                                         Bachelor's in Mechanical Engineering
                                     </h3>
