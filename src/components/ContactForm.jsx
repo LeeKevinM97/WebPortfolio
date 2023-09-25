@@ -55,7 +55,7 @@ function ContactForm() {
   }
   return (
     <>
-      <div className="h-fit w-full py-4 bg-first" id="contactForm">
+      <div className="h-fit w-full p-8 bg-first" id="contactForm">
         <h1 className="text-4xl text-center font-semibold mb-6 text-fourth roboto">Get In Touch!</h1>
         <h2 className="scp text-xl my-10 text-center text-fourth">Hiring? Questions? <br/> I'd love to hear from you!</h2>
         <form onSubmit={handleSubmit}>
