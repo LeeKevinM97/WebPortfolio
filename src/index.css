@@ -5,8 +5,9 @@
 /* Colors for Default Dark Mode */
 :root {
   --first: #0D2438;
-  --second: #6F6EFF;
-  --third: #1E3851;
+  --second: #008080;
+  /* --third: #1E3851; */
+  --third: #2F4F4F;
   --fourth: #FFFFFF;
   --white: #FFFFFF;
 }

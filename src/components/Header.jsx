@@ -20,14 +20,15 @@ function Header() {
     if (darkTheme) {
       setTheme(false);
       document.documentElement.style.setProperty('--first', '#FFFFFF');
-      document.documentElement.style.setProperty('--second', '#6F6EFF');
+      document.documentElement.style.setProperty('--second', '#008080');
       document.documentElement.style.setProperty('--third', '#F7F8FC');
+      // document.documentElement.style.setProperty('--third', '#2F4F4F');
       document.documentElement.style.setProperty('--fourth', '#212E4D');
     } else {
       setTheme(true);
       document.documentElement.style.setProperty('--first', '#0D2438');
-      document.documentElement.style.setProperty('--second', '#6F6EFF');
-      document.documentElement.style.setProperty('--third', '#1E3851');
+      document.documentElement.style.setProperty('--second', '#008080');
+      document.documentElement.style.setProperty('--third', '#2F4F4F');
       document.documentElement.style.setProperty('--fourth', '#FFFFFF');
     }
   }
