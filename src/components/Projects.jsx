@@ -86,7 +86,7 @@ function Projects() {
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card3')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
-                <img className='h-40 w-auto my-auto' src={require("../images/DBS_Card.png")} alt='DBS Card Image'></img>
+                <img className='h-40 w-auto my-auto' src={require("../images/DBS_Card.png")} alt='Database Systems Card Image'></img>
               </div>
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
@@ -104,7 +104,7 @@ function Projects() {
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card4')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
-                <img className='h-40 w-auto my-auto' src={require("../images/CV_Card.png")} alt='Data & Visual Analytics Main Page'></img>
+                <img className='h-40 w-auto my-auto' src={require("../images/CV_Card.png")} alt='Computer Vision Card Image'></img>
               </div>
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
@@ -122,7 +122,7 @@ function Projects() {
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card5')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
-                <img className='h-40 w-auto my-auto' src={require("../images/GameAI_Card.png")} alt='ClearView Vision Logo'></img>
+                <img className='h-40 w-auto my-auto' src={require("../images/GameAI_Card.png")} alt='Game Artificial Intelligence Card Image'></img>
               </div>
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
