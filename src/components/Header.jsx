@@ -53,7 +53,7 @@ function Header() {
               {/* This part is for the collapsing hamburger menu */}
               <div className="flex md:hidden">
                 <div
-                  className="space-y-2 my-auto mr-14"
+                  className="space-y-2 my-auto mx-auto"
                   onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
                 >
                   {/* Hamburger Menu Symbol */}

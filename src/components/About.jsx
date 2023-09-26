@@ -8,7 +8,7 @@ function About() {
                 <div className="p-8">
                     {/* This Portion is for About Me */}
                     <h1 className="text-4xl text-center font-semibold mb-6 text-fourth roboto">About Me</h1>
-                    <div className='w-fit mt-12 p-4 mx-12 scp text-white bg-second break-word rounded-xl'>
+                    <div className='w-fit mt-12 p-4 md:mx-12 scp text-white bg-second break-word rounded-xl'>
                         <p>
                             During my career in the Manufacturing Industry as an Engineer, I noticed a plethora of repetitive data collection and actions being done to fulfill daily job duties.
                             This sprouted an interest in automation of tasks and led me into learning VBA / CMD scripts to start.
@@ -190,10 +190,10 @@ function About() {
                                     <a className="scp" target="_blank" href="https://omscs.gatech.edu/home">
                                         Georgia Institute of Technology
                                     </a>
-                                    <p className="leading-tight text-justify w-full scp mb-3">
+                                    <p className="leading-tight text-left w-full scp mb-3">
                                         Jan 2022 - Current (50% Completion)
                                     </p>
-                                    <p className="leading-tight text-justify w-full scp">
+                                    <p className="leading-tight text-left w-full scp">
                                         GPA: 4.00 / 4.00<br />
                                         Machine Learning Specialization<br /><br />
                                         <em><strong>Coursework</strong></em>  :  <em>Click on Course to view Final Projects' Demos</em><br />
@@ -224,10 +224,10 @@ function About() {
                                     <a className="scp" target="_blank" href="https://www.me.utexas.edu/">
                                         University of Texas at Austin
                                     </a>
-                                    <p className="leading-tight text-justify w-full scp mb-3">
+                                    <p className="leading-tight text-left w-full scp mb-3">
                                         Aug 2015 - June 2018
                                     </p>
-                                    <p className="leading-tight text-justify w-full scp">
+                                    <p className="leading-tight text-left w-full scp">
                                         GPA:  3.83 / 4.00<br />
                                         Business Foundations Certificate Program
                                     </p>
