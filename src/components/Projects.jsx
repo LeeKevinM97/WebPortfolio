@@ -1,24 +1,34 @@
-import React from 'react'
-import { useState } from 'react'
-import CarouselImages from './CarouselImages.jsx'
-import CarouselVideos from './CarouselVideos.jsx'
+import React from 'react';
+import { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 
-import clearviewSlide1 from '../images/ClearView_Slide1.png'
-import clearviewSlide2 from '../images/ClearView_Slide2.png'
-import clearviewSlide3 from '../images/ClearView_Slide3.png'
-import clearviewSlide4 from '../images/ClearView_Slide4.png'
+import CarouselImages from './CarouselImages.jsx';
+import CarouselVideos from './CarouselVideos.jsx';
 
-import DVASlide0 from '../images/DVA_Card.png'
-import DVASlide1 from '../images/DVA_Slide1.png'
-import DVASlide2 from '../images/DVA_Slide2.png'
+import clearviewSlide1 from '../images/ClearView_Slide1.png';
+import clearviewSlide2 from '../images/ClearView_Slide2.png';
+import clearviewSlide3 from '../images/ClearView_Slide3.png';
+import clearviewSlide4 from '../images/ClearView_Slide4.png';
 
-import GameAI1 from '../images/GameAI_Dodgeball.mp4'
-import GameAI2 from '../images/GameAI_RaceTrack.mp4'
+import DVASlide0 from '../images/DVA_Card.png';
+import DVASlide1 from '../images/DVA_Slide1.png';
+import DVASlide2 from '../images/DVA_Slide2.png';
+
+import GameAI1 from '../images/GameAI_Dodgeball.mp4';
+import GameAI2 from '../images/GameAI_RaceTrack.mp4';
 
 function Projects() {
 
   // Create a React hook, variable activeModal, modified by setActiveModal, set to default null
   const [activeModal, setActiveModal] = useState(null);
+
+  const {cardId} = useParams();
+
+  useEffect(() => {
+    if (cardId) {
+      setActiveModal(cardId);
+    }
+  }, [cardId]);
 
   // Call function setActiveModal to update activeModal
   const openModal = (cardId) => {

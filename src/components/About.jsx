@@ -1,5 +1,6 @@
-import React from 'react'
-import Border from '../components/Border.jsx'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Border from '../components/Border.jsx';
 
 function About() {
     return (
@@ -197,11 +198,11 @@ function About() {
                                         GPA: 4.00 / 4.00<br />
                                         Machine Learning Specialization<br /><br />
                                         <em><strong>Coursework</strong></em>  :  <em>Click on Course to view Final Projects' Demos</em><br />
-                                        [A] Data & Visual Analytics<br />
-                                        [A] Database System Concepts & Design<br />
-                                        [A] Computer Vision<br />
+                                        [A] <Link to={`/projects/card2`}>Data & Visual Analytics</Link><br />
+                                        [A] <Link to={`/projects/card3`}>Database System Concepts & Design</Link><br />
+                                        [A] <Link to={`/projects/card4`}>Computer Vision</Link><br />
                                         [A] Artificial Intelligence, Ethics, & Society<br />
-                                        [A] Game Artificial Intelligence<br />
+                                        [A] <Link to={`/projects/card5`}>Game Artificial Intelligence</Link><br />
                                         [Current] Machine Learning<br />
                                     </p>
                                 </div>

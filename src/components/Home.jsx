@@ -10,7 +10,7 @@ function Home() {
             <p className="text-fourth font-bold text-4xl mb-10 roboto px-10">
               Hello, my name is Kevin Maximiliano Lee.
             </p>
-            <p className="text-fourth text-2xl scp px-10">
+            <p className="text-fourth text-2xl scp px-10 md:my-auto mb-10">
               I am a Full-Stack Developer / Data Engineer!
             </p>
           </div>
