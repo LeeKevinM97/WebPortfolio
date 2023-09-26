@@ -95,7 +95,7 @@ function About() {
                                         <em><strong>Shift Engineer - Lead</strong></em>  :  June 2018 - Aug 2020<br />
                                         <ul class='list-disc pl-5'>
                                             <li>Developed VBA macro scripts to save 2.5 man-hours per day spent on repetitive, daily operations</li>
-                                            <li>Creatied a batch file to quickly open necessary applications, webpages, and SOPs for shift teams</li>
+                                            <li>Created a batch file to quickly open necessary applications, webpages, and SOPs for shift teams</li>
                                             <li>Trained new hires on system proficiency and critical thinking for around the clock sustaining needs</li>
                                         </ul>                                     
                                     </p>
