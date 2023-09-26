@@ -84,22 +84,22 @@ function Header() {
 
                   {/* List of NavLinks */}
                   <ul className="flex flex-col items-center justify-between min-h-[250px]">
-                    <li className="border-b border-gray-400 my-8 uppercase">
+                    <li className="border-b border-gray-400 my-8 uppercase font-bold">
                       <NavLink className="navlink-header" to="/">
                         <p className={`mx-1 2xl:text-3xl text-second`} onClick={() => setIsNavOpen((prev) => !prev)}>Home</p>
                       </NavLink>
                     </li>
-                    <li className="border-b border-gray-400 my-8 uppercase">
+                    <li className="border-b border-gray-400 my-8 uppercase font-bold">
                       <NavLink className="navlink-header" to="about">
                         <p className={`mx-1 2xl:text-3xl text-second`} onClick={() => setIsNavOpen((prev) => !prev)}>About</p>
                       </NavLink>
                     </li>
-                    <li className="border-b border-gray-400 my-8 uppercase">
+                    <li className="border-b border-gray-400 my-8 uppercase font-bold">
                       <NavLink className="navlink-header" to="projects">
                         <p className={`mx-1 2xl:text-3xl text-second`} onClick={() => setIsNavOpen((prev) => !prev)}>Projects</p>
                       </NavLink>
                     </li>
-                    <li className="border-b border-gray-400 my-8 uppercase">
+                    <li className="border-b border-gray-400 my-8 uppercase font-bold">
                       <NavLink className="navlink-header" to="contact">
                         <p className={`mx-1 2xl:text-3xl text-second`} onClick={() => setIsNavOpen((prev) => !prev)}>Contact</p>
                       </NavLink>
