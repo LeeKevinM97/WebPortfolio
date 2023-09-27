@@ -197,7 +197,7 @@ function About() {
                                     <p className="leading-tight text-left w-full scp">
                                         GPA: 4.00 / 4.00<br />
                                         Machine Learning Specialization<br /><br />
-                                        <em><strong>Coursework</strong></em>  :  <em>Click on Course to view Final Projects' Demos</em><br />
+                                        <em><strong>Coursework</strong></em>  :  <em>Click on Course to View Interesting Coursework</em><br />
                                         [A] <Link to={`/projects/card2`}>Data & Visual Analytics</Link><br />
                                         [A] <Link to={`/projects/card3`}>Database System Concepts & Design</Link><br />
                                         [A] <Link to={`/projects/card4`}>Computer Vision</Link><br />
