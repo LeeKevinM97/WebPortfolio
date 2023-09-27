@@ -7,6 +7,7 @@ import Home from './components/Home.jsx';
 import About from './components/About.jsx'
 import Projects from './components/Projects.jsx';
 import ContactForm from './components/ContactForm.jsx';
+import Render404 from './components/Render404.jsx';
 
 import './index.css';
 import './css/Main.css';
@@ -18,10 +19,11 @@ function App() {
       <Header/>
       <Routes>
         <Route index element={<Home/>}/>
-        <Route path="about" element={<About/>}/>
-        <Route path="projects" element={<Projects/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/projects" element={<Projects/>}/>
         <Route path="/projects/:cardId" element={<Projects/>}/>
-        <Route path="contact" element={<ContactForm/>}/>
+        <Route path="/contact" element={<ContactForm/>}/>
+        <Route path="/*" element={<Render404/>}/>
       </Routes>
       <Footer/>
     </HashRouter>
