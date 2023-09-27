@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aaa6e015.css",
-    "main.js": "/static/js/main.146b3eaf.js",
+    "main.css": "/static/css/main.e697e77f.css",
+    "main.js": "/static/js/main.8d8be620.js",
     "static/js/787.c4f55739.chunk.js": "/static/js/787.c4f55739.chunk.js",
     "static/media/GameAI_Dodgeball.mp4": "/static/media/GameAI_Dodgeball.e8e6efcf7fae90517300.mp4",
     "static/media/GameAI_RaceTrack.mp4": "/static/media/GameAI_RaceTrack.3e7843de0f9831f9ec7b.mp4",
@@ -13,6 +13,7 @@
     "static/media/CV_Card.png": "/static/media/CV_Card.c33f79ca2189ecace3dd.png",
     "static/media/DVA_Card.png": "/static/media/DVA_Card.e87872003a547a2e7047.png",
     "static/media/Picture.jpeg": "/static/media/Picture.9a9d763d929eff84f069.jpeg",
+    "static/media/Resume_LeeKevinM.pdf": "/static/media/Resume_LeeKevinM.2d5d1ff0ed41c8d92fe2.pdf",
     "static/media/ClearView_Slide4.png": "/static/media/ClearView_Slide4.5d2d1d62a916cb49b82d.png",
     "static/media/ClearView_Slide1.png": "/static/media/ClearView_Slide1.99ce3dd8bc56b8cc8986.png",
     "static/media/DBS_Card.png": "/static/media/DBS_Card.283ae65d0ae5469975a0.png",
@@ -21,12 +22,12 @@
     "static/media/ClearView_Card.png": "/static/media/ClearView_Card.2c3d668d15179ddb8455.png",
     "static/media/404.svg": "/static/media/404.1ae373f63bc8363145f21fafb0617e3a.svg",
     "index.html": "/index.html",
-    "main.aaa6e015.css.map": "/static/css/main.aaa6e015.css.map",
-    "main.146b3eaf.js.map": "/static/js/main.146b3eaf.js.map",
+    "main.e697e77f.css.map": "/static/css/main.e697e77f.css.map",
+    "main.8d8be620.js.map": "/static/js/main.8d8be620.js.map",
     "787.c4f55739.chunk.js.map": "/static/js/787.c4f55739.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaa6e015.css",
-    "static/js/main.146b3eaf.js"
+    "static/css/main.e697e77f.css",
+    "static/js/main.8d8be620.js"
   ]
 }
