@@ -17,7 +17,7 @@ function Home() {
         </div>
         <div className="lg:w-1/2 lg:h-[48rem] flex p-10 w-full h-auto flex my-auto mx-auto justify-center align-center">
           <img
-            className="md:h-[32rem] w-auto my-auto rounded-[128px] h-auto"
+            className="md:h-[32rem] w-auto md:my-auto rounded-[128px] h-auto my-10"
             src={require("../images/Picture.jpeg")}
             alt="Kevin's Image"
           ></img>
