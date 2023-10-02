@@ -11,13 +11,13 @@ function About() {
                     <h1 className="text-4xl text-center font-semibold mb-6 text-fourth roboto">About Me</h1>
                     <div className='w-fit mt-12 p-4 md:mx-12 scp text-white bg-second break-word rounded-xl'>
                         <p>
-                            During my career in the Manufacturing Industry as an Engineer, I noticed a plethora of repetitive data collection and actions being done to fulfill daily job duties.
-                            This sprouted an interest in automation of tasks and led me into learning VBA / CMD scripts to start.
-                            From there, I moved onto developing automated monitoring scripts to email / message alerts and generating dashboards for ease of process monitoring.
-                            Now, halfway through a Masters of Computer Science, I am ready for a transition into Full Stack Development and/or Data Engineering.
-                            With a unique blend of engineering principles and computer science knowledge, I excel at analytical problem-solving and developing efficient software solutions.
-                            An intrigued, continuous learner, I am always curious about learning the latest technological trends.
-                            Eager to apply these skills, I look forward to driving technical innovation and process improvements in challenging environments.
+                            I am a Master's in Computer Science candidate with skills in data analytics and web development, eager to contribute and expand expertise in Software Development or Data Engineering roles.
+                            In my role as an Engineer in the Manufacturing Industry, I frequently encountered repetitive data collection and manual processes integral to day-to-day operations.
+                            Recognizing the inefficiencies, I delved into automation by learning Visual Basic and Batch scripting.
+                            This progression led me to develop better automated monitoring scripts for alerts using FastAPI, as well as generated dashboards for process monitoring with Streamlit.
+                            Combining engineering fundamentals with a strong grasp of computer science, I stand out in analytical problem-solving and creating optimal software solutions.
+                            As a lifelong learner, i'm constantly interested to adapt to new technologies.
+                            I'm enthusiastic about leveraging my competencies for innovation in challenging technical domains.
                         </p>
                     </div>
 
@@ -49,10 +49,13 @@ function About() {
                                         July 2023 - Current
                                     </p>
                                     <p className="leading-tight text-left w-full scp">
-                                        Develop, maintain, and optimize the NFORS Analytics platform<br/>
-                                        Collaborate with cross-functional teams to implement and enhance analytics solutions<br/>
-                                        Create detailed documentation pertaining to system architecture, data flow, functionality, and modification processes<br/>
-                                        Address and troubleshoot issues without impacting live product<br/>
+                                        <em>Technologies: TypeScript, AWS (Lambda, S3, ECS), Kubernetes, Grafana, RabbitMQ, Sentry</em><br/>
+                                        <ul class='list-disc pl-5'>
+                                            <li>Non-profit organization dedicated to data-driven research for improvement on operational performance</li>
+                                            <li>Developed data pipelines to normalize incoming fire department dispatch data for integration</li>
+                                            <li>Debugged and optimized normalizer performance for NFORS Analytics platform</li>
+                                            <li>Create detailed documentation pertaining to system architecture, data flow, functionality, and modification processes</li>
+                                        </ul>
                                     </p>
                                 </div>
                             </div>
@@ -78,14 +81,15 @@ function About() {
                                         June 2018 - Current
                                     </p>
                                     <p className="leading-tight text-left w-full scp">
-                                        <em><strong>Process Engineer - Plasma Enhanced TEOS Films</strong></em>  :  Aug 2020 - Current<br />
+                                        <em><strong>Process Engineer - PETEOS Films</strong></em>  :  Aug 2020 - Current<br />
+                                        <em>Technologies:  Big Data, FastAPI, Python, Streamlit, VBA</em>
                                         <ul class='list-disc pl-5'>
-                                            <li>Co-ownership of data solutions in the department - supporting automation requests and representative for fab-wide applications</li>
-                                            <li>Developed big data cloud dashboard using Python and Streamlit to aid department on process monitoring visualization</li>
-                                            <br/>
-                                            <li>Improved process marginality through standardization and recipe modifications across owned process groups</li>
-                                            <li>Increased capacity throughput by reduction of process step times</li>
-                                            <li>Reduced of raw materials usage in process for cost savings</li>
+                                            <li>Co-established Data Solutions subteam in department - tailored to automation of mundane tasks</li>
+                                            <li>Developed FastAPI Jarvis functions to streamline floor technicians job duties</li>
+                                            <li>Built Big Data cloud dashboards for efficient process monitoring, reducing TAT for decision making</li>
+                                            <li>Reduced cost material usage by $400,000 per year using residual gas analysis of process cleans</li>
+                                            <li>Increased wafers per hour throughput of process fleet with optimization of process deposition recipes</li>
+                                            <li>Ensured rapid tool deployment for fast-expansion production ramps to meet customer demands</li>
                                             <li>Troubleshooting process trend shifts and equipment particle / sensor alarms to determine root cause and address</li>
                                             <li>Mentoring for new process engineers and college interns</li>
                                         </ul>                                     
@@ -93,6 +97,7 @@ function About() {
                                     <br/>
                                     <p className="leading-tight text-left w-full scp">
                                         <em><strong>Shift Engineer - Lead</strong></em>  :  June 2018 - Aug 2020<br />
+                                        <em>Technologies:  Batch Scripting, VBA</em>
                                         <ul class='list-disc pl-5'>
                                             <li>Developed VBA macro scripts to save 2.5 man-hours per day spent on repetitive, daily operations</li>
                                             <li>Created a batch file to quickly open necessary applications, webpages, and SOPs for shift teams</li>
@@ -157,10 +162,12 @@ function About() {
                                         Summers of 2016 & 2017
                                     </p>
                                     <p className="leading-tight text-left w-full scp">
-                                        Led and managed contractors for fume hood installation project for safety improvement<br />
-                                        Improved equipment labeling with chemical compatibility verification to reduce deterioration<br />
-                                        Developed and analyzed incompatible sets of materials in pressure transducers to identify and prevent high-impact leaks and faults<br />
-                                        Standardized P&IDs for ease of use and physically verified all components included in diagrams
+                                        <ul class='list-disc pl-5'>
+                                            <li>Led and managed contractors for fume hood installation project for safety improvement</li>
+                                            <li>Improved equipment labeling with chemical compatibility verification to reduce deterioration</li>
+                                            <li>Developed and analyzed incompatible sets of materials in pressure transducers to identify and prevent high-impact leaks and faults</li>
+                                            <li>Standardized P&IDs for ease of use and physically verified all components included in diagrams</li>
+                                        </ul>
                                     </p>
                                 </div>
                             </div>
@@ -204,6 +211,9 @@ function About() {
                                         [A] Artificial Intelligence, Ethics, & Society<br />
                                         [A] <Link to={`/projects/card5`}>Game Artificial Intelligence</Link><br />
                                         [Current] Machine Learning<br />
+                                        [Plan] Machine Learning for Trading<br />
+                                        [Plan] Software Development Process<br />
+                                        [Plan] Intro to Graduate Algorithms<br />
                                     </p>
                                 </div>
                             </div>
