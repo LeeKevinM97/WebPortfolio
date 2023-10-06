@@ -16,7 +16,7 @@ function About() {
                             Recognizing the inefficiencies, I delved into automation by learning Visual Basic and Batch scripting.
                             This progression led me to develop better automated monitoring scripts for alerts using FastAPI, as well as generated dashboards for process monitoring with Streamlit.
                             Combining engineering fundamentals with a strong grasp of computer science, I stand out in analytical problem-solving and creating optimal software solutions.
-                            As a lifelong learner, i'm constantly interested to adapt to new technologies.
+                            As a knowledge seeker, i'm constantly interested in learning and adapting to new technologies.
                             I'm enthusiastic about leveraging my competencies for innovation in challenging technical domains.
                         </p>
                     </div>
