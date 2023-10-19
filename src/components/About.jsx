@@ -40,7 +40,7 @@ function About() {
                                 </div>
                                 <div className="bg-second col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
                                     <h3 className="font-semibold text-lg scp">
-                                        Part-Time Full-Stack Developer
+                                        Full-Stack Software Engineer (Part-Time)
                                     </h3>
                                     <a className="scp" target="_blank" href="https://i-psdi.org/">
                                         International Public Safety Data Institute
