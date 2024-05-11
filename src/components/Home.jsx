@@ -4,19 +4,22 @@ import Border from "../components/Border.jsx";
 function Home() {
   const skillsData = [
     { name: 'Python', value: 100 },
-    { name: 'JavaScript', value: 70 },
-    { name: 'HTML', value: 80 },
-    { name: 'CSS', value: 80 },
-    { name: 'Tailwind', value: 85 },
+    { name: 'TypeScript', value: 85 },
+    { name: 'HTML', value: 60 },
+    { name: 'CSS', value: 60 },
+    { name: 'Tailwind', value: 65 },
     { name: 'Unity', value: 50 },
     { name: 'C#', value: 50 },
-    { name: 'AWS', value: 60 },
-    { name: 'SQL Server MS', value: 40 },
-    { name: 'Docker', value: 20 },
+    { name: 'AWS', value: 75 },
+    { name: 'MSSQL', value: 40 },
+    { name: 'Docker', value: 80 },
     { name: 'GitHub', value: 100 },
     { name: 'React JS', value: 65 },
     { name: 'ChatGPT', value: 90 },
     { name: 'SQL', value: 70 },
+    { name: 'Kubernetes', value: 60},
+    { name: 'Azure', value: 85},
+    { name: 'Terraform', value: 65}
   ];
 
   const sortedSkills = [...skillsData].sort((a, b) => b.value - a.value);

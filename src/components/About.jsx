@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Border from '../components/Border.jsx';
+import DatePercentage from '../components/CompletionPercentage.jsx';
 
 function About() {
     return (
@@ -193,14 +194,12 @@ function About() {
                                 </div>
                                 <div className="bg-second col-start-2 col-end-11 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
                                     <h3 className="font-semibold text-lg scp">
-                                        (Online) Master's in Computer Science
+                                        Master's of Science in Computer Science
                                     </h3>
                                     <a className="scp" target="_blank" href="https://omscs.gatech.edu/home">
                                         Georgia Institute of Technology
                                     </a>
-                                    <p className="leading-tight text-left w-full scp mb-3">
-                                        Jan 2022 - Current (50% Completion)
-                                    </p>
+                                    <DatePercentage />
                                     <p className="leading-tight text-left w-full scp">
                                         GPA: 4.00 / 4.00<br />
                                         Machine Learning Specialization<br /><br />
@@ -210,10 +209,11 @@ function About() {
                                         [A] <Link to={`/projects/card4`}>Computer Vision</Link><br />
                                         [A] Artificial Intelligence, Ethics, & Society<br />
                                         [A] <Link to={`/projects/card5`}>Game Artificial Intelligence</Link><br />
-                                        [Current] Machine Learning<br />
-                                        [Plan] Machine Learning for Trading<br />
-                                        [Plan] Software Development Process<br />
-                                        [Plan] Intro to Graduate Algorithms<br />
+                                        [A] Machine Learning<br />
+                                        [A] Machine Learning for Trading<br />
+                                        [A] Software Development Process<br />
+                                        [Current] Natural Language Processing<br />
+                                        [Pending] Intro to Graduate Algorithms<br />
                                     </p>
                                 </div>
                             </div>
