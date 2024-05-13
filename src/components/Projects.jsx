@@ -66,7 +66,7 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">ClearView Vision</h2>
                 <p className="mt-2 text-white scp">
-                  Freelance Project. <br/>
+                  Freelance. <br/>
                   Given the task to develop a website for a new business owner in Austin, TX.
                   Gathered a team including another Developer and a UX/UI Designer to design, develop, and deploy the website at https://clearviewatx.com.
                 </p>
@@ -84,7 +84,7 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Data & Visual Analytics</h2>
                 <p className="mt-2 text-white scp">
-                  OMSCS GATech Coursework Project. <br/>
+                  OMSCS - Georgia Tech. <br/>
                   My team of 5 created a dashboard analyzing different aspects of National Fire Incident Reporting System (NFIRS) dataset.
                   Goal was to explore any large dataset and generate useful visualizations.
                 </p>
@@ -102,7 +102,7 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Database System Concepts & Design</h2>
                 <p className="mt-2 text-white scp">
-                  OMSCS GATech Coursework Project. <br/>
+                  OMSCS - Georgia Tech. <br/>
                   Given customer requirements to develop an application for trading board games.
                   Specific customer constraints such as functions to search zip codes, usernames, etc.
                 </p>
@@ -120,7 +120,7 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Computer Vision</h2>
                 <p className="mt-2 text-white scp">
-                  OMSCS GATech Coursework Project. <br/>
+                  OMSCS - Georgia Tech. <br/>
                   From the final project choices, I chose to learn and implement Stereo Correspondence.
                   It involves using algorithms to determine depth in images.
                 </p>
@@ -138,7 +138,7 @@ function Projects() {
               <div className="grid-row p-6 flex flex-col">
                 <h2 className="text-lg font-bold text-white mb-2">Game Artificial Intelligence</h2>
                 <p className="mt-2 text-white scp">
-                  OMSCS GATech Coursework Homework. <br/>
+                  OMSCS - Georgia Tech. <br/>
                   In this course focused on Unity development, two homework assignment / projects particularly entrigued me.
                   Development of behavior for minions in a dodgeball game and driving control mechanics for an autonomous vehicle navigating a virtual track.
                 </p>
