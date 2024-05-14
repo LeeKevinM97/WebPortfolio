@@ -15,7 +15,7 @@ function About() {
                             I am a Master's in Computer Science candidate with skills in data analytics and web development, eager to contribute and expand expertise in Software Development or Data Engineering roles.
                             In my role as an Engineer in the Manufacturing Industry, I frequently encountered repetitive data collection and manual processes integral to day-to-day operations.
                             Recognizing the inefficiencies, I delved into automation by learning Visual Basic and Batch scripting.
-                            This progression led me to develop better automated monitoring scripts for alerts using FastAPI, as well as generated dashboards for process monitoring with Streamlit.
+                            This progression led me to develop advanced automated monitoring scripts for alerts using FastAPI, as well as dashboards for process monitoring with Streamlit.
                             Combining engineering fundamentals with a strong grasp of computer science, I stand out in analytical problem-solving and creating optimal software solutions.
                             As a knowledge seeker, i'm constantly interested in learning and adapting to new technologies.
                             I'm enthusiastic about leveraging my competencies for innovation in challenging technical domains.
@@ -28,6 +28,41 @@ function About() {
                     <h1 className="text-4xl text-center font-semibold mb-6 text-fourth roboto">Work Experience</h1>
                     <div className="w-full">
                         <div className="flex flex-col md:grid grid-cols-12 w-full">
+
+                            {/* New Work Experience */}
+                            <div className="flex md:contents">
+                                <div className="col-start-1 col-end-3 mr-6 md:mx-auto relative">
+                                    <div className="h-full w-6 flex items-center justify-center">
+                                        <div className="h-full w-1 bg-second pointer-events-none"></div>
+                                    </div>
+                                    <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-second shadow text-center">
+                                        <i className="fas fa-check-circle text-white"></i>
+                                    </div>
+                                </div>
+                                <div className="bg-second col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
+                                    <h3 className="font-semibold text-lg scp">
+                                        Backend Software Engineer
+                                    </h3>
+                                    <a className="scp" target="_blank" href="https://i-psdi.org/">
+                                        CommandLink
+                                    </a>
+                                    <p className="leading-tight text-left w-full scp mb-3">
+                                        Dec 2023 - Current
+                                    </p>
+                                    <p className="leading-tight text-left w-full scp">
+                                        <em>Technologies: Python, FastAPI, Swagger, Azure, Docker, Terraform, GitHub Actions, Lucid Chart</em><br/>
+                                        <ul class='list-disc pl-5'>
+                                            <li>Designed data schemas with LucidChart to enhance structure and flow for a content platform</li>
+                                            <li>Deployed CosmosDB, BlobStorage, and Container Apps with Terraform, improving scalability</li>
+                                            <li>Built RESTful APIs using Python FastAPI to connect React/PHP frontends with Azure databases</li>
+                                            <li>Implemented OAuth2 for robust authentication and security enhancements</li>
+                                            <li>Applied Python standards with Pytest and Flake8 in GitHub Actions CI/CD, ensuring code quality</li>
+                                            <li>Created bash scripts for test cleanup in Jest and Cypress, streamlining processes</li>
+                                            <li>Developed a Jenkins CI/CD environment, optimizing version deployment efficiency</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
 
                             {/* New Work Experience */}
                             <div className="flex md:contents">
@@ -65,13 +100,13 @@ function About() {
                             <div className="flex md:contents">
                                 <div className="col-start-1 col-end-3 mr-6 md:mx-auto relative">
                                     <div className="h-full w-6 flex items-center justify-center">
-                                        <div className="h-full w-1 bg-second pointer-events-none"></div>
+                                        <div className="h-full w-1 bg-third pointer-events-none"></div>
                                     </div>
-                                    <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-second shadow text-center">
+                                    <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-third shadow text-center">
                                         <i className="fas fa-check-circle text-white"></i>
                                     </div>
                                 </div>
-                                <div className="bg-second col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
+                                <div className="bg-third col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
                                     <h3 className="font-semibold text-lg scp">
                                         Engineer II
                                     </h3>
@@ -79,7 +114,7 @@ function About() {
                                         Samsung Austin Semiconductor, LLC.
                                     </a>
                                     <p className="leading-tight text-left w-full scp mb-3">
-                                        June 2018 - Current
+                                        June 2018 - Dec 2023
                                     </p>
                                     <p className="leading-tight text-left w-full scp">
                                         <em><strong>Process Engineer - PETEOS Films</strong></em>  :  Aug 2020 - Current<br />
@@ -91,7 +126,7 @@ function About() {
                                             <li>Reduced cost material usage by $400,000 per year using residual gas analysis of process cleans</li>
                                             <li>Increased wafers per hour throughput of process fleet with optimization of process deposition recipes</li>
                                             <li>Ensured rapid tool deployment for fast-expansion production ramps to meet customer demands</li>
-                                            <li>Troubleshooting process trend shifts and equipment particle / sensor alarms to determine root cause and address</li>
+                                            <li>Troubleshooting process trend shifts and equipment particle / sensor alarms for root cause analysis</li>
                                             <li>Mentoring for new process engineers and college interns</li>
                                         </ul>                                     
                                     </p>
