@@ -5,17 +5,17 @@ import { useParams } from 'react-router-dom';
 import CarouselImages from './CarouselImages.jsx';
 import CarouselVideos from './CarouselVideos.jsx';
 
-import clearviewSlide1 from '../images/ClearView_Slide1.png';
-import clearviewSlide2 from '../images/ClearView_Slide2.png';
-import clearviewSlide3 from '../images/ClearView_Slide3.png';
-import clearviewSlide4 from '../images/ClearView_Slide4.png';
+import clearviewSlide1 from '../images/ClearViewVision/ClearView_Slide1.png';
+import clearviewSlide2 from '../images/ClearViewVision/ClearView_Slide2.png';
+import clearviewSlide3 from '../images/ClearViewVision/ClearView_Slide3.png';
+import clearviewSlide4 from '../images/ClearViewVision/ClearView_Slide4.png';
 
-import DVASlide0 from '../images/DVA_Card.png';
-import DVASlide1 from '../images/DVA_Slide1.png';
-import DVASlide2 from '../images/DVA_Slide2.png';
+import DVASlide0 from '../images/DataVisualAnalytics/DVA_Card.png';
+import DVASlide1 from '../images/DataVisualAnalytics/DVA_Slide1.png';
+import DVASlide2 from '../images/DataVisualAnalytics/DVA_Slide2.png';
 
-import GameAI1 from '../images/GameAI_Dodgeball.mp4';
-import GameAI2 from '../images/GameAI_RaceTrack.mp4';
+import GameAI1 from '../images/GameArtificialIntelligence/GameAI_Dodgeball.mp4';
+import GameAI2 from '../images/GameArtificialIntelligence/GameAI_RaceTrack.mp4';
 
 function Projects() {
 
@@ -60,7 +60,7 @@ function Projects() {
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card1')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
-                <img className='h-40 w-auto my-auto invert' src={require("../images/ClearView_Card.png")} alt='ClearView Vision Logo'></img>
+                <img className='h-40 w-auto my-auto invert' src={require("../images/ClearViewVision/ClearView_Card.png")} alt='ClearView Vision Logo'></img>
               </div>
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
@@ -78,7 +78,7 @@ function Projects() {
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card2')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
-                <img className='h-40 w-auto my-auto' src={require("../images/DVA_Card.png")} alt='Data & Visual Analytics Main Page'></img>
+                <img className='h-40 w-auto my-auto' src={require("../images/DataVisualAnalytics/DVA_Card.png")} alt='Data & Visual Analytics Main Page'></img>
               </div>
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
@@ -96,7 +96,7 @@ function Projects() {
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card3')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
-                <img className='h-40 w-auto my-auto' src={require("../images/DBS_Card.png")} alt='Database Systems Card Image'></img>
+                <img className='h-40 w-auto my-auto' src={require("../images/DatabaseSystem/DBS_Card.png")} alt='Database Systems Card Image'></img>
               </div>
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
@@ -114,7 +114,7 @@ function Projects() {
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card4')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
-                <img className='h-40 w-auto my-auto' src={require("../images/CV_Card.png")} alt='Computer Vision Card Image'></img>
+                <img className='h-40 w-auto my-auto' src={require("../images/ComputerVision/CV_Card.png")} alt='Computer Vision Card Image'></img>
               </div>
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
@@ -132,7 +132,7 @@ function Projects() {
             <div className="bg-second rounded-lg shadow-md cursor-pointer grid grid-cols-1 grid-rows-2" onClick={() => openModal('card5')}>
               {/* Image Section */}
               <div className="grid-row py-auto flex justify-center align-center pt-6">
-                <img className='h-40 w-auto my-auto' src={require("../images/GameAI_Card.png")} alt='Game Artificial Intelligence Card Image'></img>
+                <img className='h-40 w-auto my-auto' src={require("../images/GameArtificialIntelligence/GameAI_Card.png")} alt='Game Artificial Intelligence Card Image'></img>
               </div>
               {/* Description Section */}
               <div className="grid-row p-6 flex flex-col">
@@ -198,7 +198,7 @@ function Projects() {
               <h2 className="text-2xl font-bold text-center">Database System Concepts & Design</h2>
               <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto">
                 <video controls className="relative mx-auto lg:h-96 h-auto w-auto">
-                  <source src={require("../images/DBS.mp4")} type="video/mp4"/>
+                  <source src={require("../images/DatabaseSystem/DBS.mp4")} type="video/mp4"/>
                   Your browser does not support the video tag.
                 </video>
               </div>
@@ -222,7 +222,7 @@ function Projects() {
             <div className="bg-white rounded-lg p-8 w-10/12 md:w-3/4 h-fit" onClick={e => e.stopPropagation()}>
               <h2 className="text-2xl font-bold text-center">Computer Vision</h2>
               <div className="pt-6 flex items-center mx-auto lg:h-96 lg:w-[784px] h-auto w-auto">
-                <iframe src="/CS6474_FinalReport.pdf" class="w-full h-full border-none"></iframe>
+                <iframe src="CS6474_FinalReport.pdf" class="w-full h-full border-none"></iframe>
               </div>
               <p className="text-gray-700 mt-4 scp">
                 Technologies: Python, OpenCV, LaTeX<br/>
@@ -250,7 +250,7 @@ function Projects() {
                 Utilized Finite State Machines to create states and transitions for optimal minion behavior.
                 Generated strategy to prioritize saving teammates and optimizing ball usage.
                 Placed in top 8 of ~140 participating graduate students in an optional tournament.
-                My opponent's control of the balls on the field and dodging transitions were much better and was later crowned the champion.
+                My opponent's control of the balls on the field and dodging transitions were much better and was later crowned the champion.<br/>
                 2. Implementation of Artificial Intelligence driven control mechanics for an autonomous car navigating a virtual track.
                 Created Fuzzy Logic for a vehicle to make decisions regarding speed, acceleration, and steering using environmental variables.
               </p>
