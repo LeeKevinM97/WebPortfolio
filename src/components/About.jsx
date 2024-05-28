@@ -2,6 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Border from '../components/Border.jsx';
 import DatePercentage from '../components/CompletionPercentage.jsx';
+import CommandLinkLogo from '../images/logos/commandlink.png';
+import SamsungLogo from '../images/logos/samsung.png';
+import IPSDILogo from '../images/logos/ipsdi.png';
+import UTLogo from '../images/logos/utexas.png';
+import GTLogo from '../images/logos/gatech.png';
 
 function About() {
     return (
@@ -32,11 +37,12 @@ function About() {
                             {/* New Work Experience */}
                             <div className="flex md:contents">
                                 <div className="col-start-1 col-end-3 mr-6 md:mx-auto relative">
-                                    <div className="h-full w-6 flex items-center justify-center">
+                                    <div className="h-full w-12 flex items-center justify-center">
                                         <div className="h-full w-1 bg-second pointer-events-none"></div>
                                     </div>
-                                    <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-second shadow text-center">
+                                    <div className="w-12 h-12 absolute top-1/2 -mt-6 rounded-full bg-second shadow text-center">
                                         <i className="fas fa-check-circle text-white"></i>
+                                        <img src={CommandLinkLogo} alt="CommandLink Logo" className="absolute top-0 left-0 h-full w-full object-cover"/>
                                     </div>
                                 </div>
                                 <div className="bg-second col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
@@ -67,11 +73,12 @@ function About() {
                             {/* New Work Experience */}
                             <div className="flex md:contents">
                                 <div className="col-start-1 col-end-3 mr-6 md:mx-auto relative">
-                                    <div className="h-full w-6 flex items-center justify-center">
+                                    <div className="h-full w-12 flex items-center justify-center">
                                         <div className="h-full w-1 bg-second pointer-events-none"></div>
                                     </div>
-                                    <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-second shadow text-center">
+                                    <div className="w-12 h-12 absolute top-1/2 -mt-6 rounded-full bg-second shadow text-center">
                                         <i className="fas fa-check-circle text-white"></i>
+                                        <img src={IPSDILogo} alt="International Public Safety Data Institute Logo" className="absolute top-0 left-0 h-full w-full object-cover"/>
                                     </div>
                                 </div>
                                 <div className="bg-second col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
@@ -99,11 +106,12 @@ function About() {
                             {/* New Work Experience */}
                             <div className="flex md:contents">
                                 <div className="col-start-1 col-end-3 mr-6 md:mx-auto relative">
-                                    <div className="h-full w-6 flex items-center justify-center">
+                                    <div className="h-full w-12 flex items-center justify-center">
                                         <div className="h-full w-1 bg-third pointer-events-none"></div>
                                     </div>
-                                    <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-third shadow text-center">
+                                    <div className="w-12 h-12 absolute top-1/2 -mt-6 rounded-full bg-third shadow text-center">
                                         <i className="fas fa-check-circle text-white"></i>
+                                        <img src={SamsungLogo} alt="Samsung Austin Semiconductor Logo" className="absolute top-4 left-0 h-fit w-fit object-cover"/>
                                     </div>
                                 </div>
                                 <div className="bg-third col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
@@ -147,11 +155,12 @@ function About() {
                             {/* New Work Experience */}
                             <div className="flex md:contents">
                                 <div className="col-start-1 col-end-3 mr-6 md:mx-auto relative">
-                                    <div className="h-full w-6 flex items-center justify-center">
+                                    <div className="h-full w-12 flex items-center justify-center">
                                         <div className="h-full w-1 bg-third pointer-events-none"></div>
                                     </div>
-                                    <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-third shadow text-center">
+                                    <div className="w-12 h-12 absolute top-1/2 -mt-6 rounded-full bg-third shadow text-center">
                                         <i className="fas fa-check-circle text-white"></i>
+                                        <img src={UTLogo} alt="University of Texas at Austin Logo" className="absolute top-1 left-0 h-full w-full object-cover"/>
                                     </div>
                                 </div>
                                 <div className="bg-third col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
@@ -180,11 +189,12 @@ function About() {
                             {/* New Work Experience */}
                             <div className="flex md:contents">
                                 <div className="col-start-1 col-end-3 mr-6 md:mx-auto relative">
-                                    <div className="h-full w-6 flex items-center justify-center">
+                                    <div className="h-full w-12 flex items-center justify-center">
                                         <div className="h-full w-1 bg-third pointer-events-none"></div>
                                     </div>
-                                    <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-third shadow text-center">
+                                    <div className="w-12 h-12 absolute top-1/2 -mt-6 rounded-full bg-third shadow text-center">
                                         <i className="fas fa-check-circle text-white"></i>
+                                        <img src={SamsungLogo} alt="Samsung Austin Semiconductor Logo" className="absolute top-4 left-0 h-fit w-fit object-cover"/>
                                     </div>
                                 </div>
                                 <div className="bg-third col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
@@ -220,11 +230,12 @@ function About() {
                             {/* New Education */}
                             <div className="flex md:contents">
                                 <div className="col-start-11 col-end-13 md:mx-auto row-start-1 row-end-2 mr-6">
-                                    <div className="h-full w-6 flex items-center justify-center">
+                                    <div className="h-full w-12 flex items-center justify-center">
                                         <div className="h-full w-1 bg-second pointer-events-none"></div>
                                     </div>
-                                    <div className="w-6 h-6 relative -top-1/2 -mt-3 rounded-full bg-second shadow text-center">
+                                    <div className="w-12 h-12 relative -top-1/2 -mt-3 rounded-full bg-second shadow text-center">
                                         <i className="fas fa-check-circle text-white"></i>
+                                        <img src={GTLogo} alt="Georgia Institute of Technology Logo" className="absolute top-2 left-0 h-fit w-fit object-cover"/>
                                     </div>
                                 </div>
                                 <div className="bg-second col-start-2 col-end-11 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
@@ -256,11 +267,12 @@ function About() {
                             {/* New Education */}
                             <div className="flex md:contents">
                                 <div className="col-start-11 col-end-13 md:mx-auto row-start-2 row-end-3 mr-6">
-                                    <div className="h-full w-6 flex items-center justify-center">
+                                    <div className="h-full w-12 flex items-center justify-center">
                                         <div className="h-full w-1 bg-third pointer-events-none"></div>
                                     </div>
-                                    <div className="w-6 h-6 relative -top-1/2 -mt-3 rounded-full bg-third shadow">
+                                    <div className="w-12 h-12 relative -top-1/2 -mt-3 rounded-full bg-third shadow">
                                         <i className="fas fa-check-circle text-white"></i>
+                                        <img src={UTLogo} alt="University of Texas at Austin Logo" className="absolute top-1 left-0 h-full w-full object-cover"/>
                                     </div>
                                 </div>
                                 <div className="bg-third col-start-2 col-end-11 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">

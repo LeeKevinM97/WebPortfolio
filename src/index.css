@@ -57,3 +57,9 @@
 .bg-fourth {
   background-color: var(--fourth);
 }
+
+/* Blending for Timeline Logos */
+
+.blend-mode {
+  mix-blend-mode: multiply;
+}
