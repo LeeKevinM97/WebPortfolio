@@ -9,3 +9,5 @@ Developed the website from scratch looking at ideas from other web portfolios.
 Using React, JSX, TailwindCSS.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Node Version: v15.5.x
