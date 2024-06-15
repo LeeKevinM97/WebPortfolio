@@ -234,7 +234,7 @@ function About() {
                                     </div>
                                     <div className="w-12 h-12 relative -top-1/2 -mt-3 rounded-full bg-second shadow text-center">
                                         <i className="fas fa-check-circle text-white"></i>
-                                        <img src={GTLogo} alt="Georgia Institute of Technology Logo" className="absolute top-2 left-0 h-fit w-fit object-cover"/>
+                                        <img src={GTLogo} alt="Georgia Institute of Technology Logo" className="absolute top-2 left-2 h-8 w-8"/>
                                     </div>
                                 </div>
                                 <div className="bg-second col-start-2 col-end-11 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
