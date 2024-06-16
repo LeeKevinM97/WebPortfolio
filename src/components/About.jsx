@@ -47,7 +47,7 @@ function About() {
                                 </div>
                                 <div className="bg-second col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
                                     <h3 className="font-semibold text-lg scp">
-                                        Backend Software Engineer
+                                        Full-Stack Software Engineer
                                     </h3>
                                     <a className="scp" target="_blank" href="https://i-psdi.org/">
                                         CommandLink
@@ -58,13 +58,12 @@ function About() {
                                     <p className="leading-tight text-left w-full scp">
                                         <em>Technologies: Python, FastAPI, Swagger, Azure, Docker, Terraform, GitHub Actions, Lucid Chart</em><br/>
                                         <ul class='list-disc pl-5'>
-                                            <li>Designed data schemas with LucidChart to enhance structure and flow for a content platform</li>
-                                            <li>Deployed CosmosDB, BlobStorage, and Container Apps with Terraform, improving scalability</li>
-                                            <li>Built RESTful APIs using Python FastAPI to connect React/PHP frontends with Azure databases</li>
-                                            <li>Implemented OAuth2 for robust authentication and security enhancements</li>
-                                            <li>Applied Python standards with Pytest and Flake8 in GitHub Actions CI/CD, ensuring code quality</li>
-                                            <li>Created bash scripts for test cleanup in Jest and Cypress, streamlining processes</li>
-                                            <li>Developed a Jenkins CI/CD environment, optimizing version deployment efficiency</li>
+                                            <li>Designed system architecture with LucidChart to visualize and improve data flow for a content platform</li>
+                                            <li>Deployed Cosmos DB, Blob Storage, Container Apps, and additional resources with Terraform</li>
+                                            <li>Built RESTful APIs using Python FastAPI to bridge operations between React and Azure Storages</li>
+                                            <li>Integrated OAuth2 for robust authentication and platform security enhancements</li>
+                                            <li>Implemented Python standards using Pytest and Flake8 in GitHub Actions CI/CD to ensure code quality</li>
+                                            <li>Created bash scripts for Jest and Cypress automated SDET testing to streamline cleanup</li>
                                         </ul>
                                     </p>
                                 </div>

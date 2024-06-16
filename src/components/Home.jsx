@@ -48,7 +48,7 @@ function Home() {
               Hello, my name is Kevin Maximiliano Lee.
             </p>
             <p className="text-fourth text-2xl scp px-10 md:my-auto mb-10">
-              I am a Full-Stack Developer / Data Engineer!
+              I am a Software Developer / Data Engineer!
             </p>
           </div>
         </div>
