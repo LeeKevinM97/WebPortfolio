@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.16bc4221.css",
-    "main.js": "/static/js/main.c45eae38.js",
+    "main.css": "/static/css/main.4c0c7dbf.css",
+    "main.js": "/static/js/main.a3c106fb.js",
     "static/js/787.c4f55739.chunk.js": "/static/js/787.c4f55739.chunk.js",
     "static/media/GameAI_Dodgeball.mp4": "/static/media/GameAI_Dodgeball.e8e6efcf7fae90517300.mp4",
     "static/media/GameAI_RaceTrack.mp4": "/static/media/GameAI_RaceTrack.3e7843de0f9831f9ec7b.mp4",
@@ -26,12 +26,12 @@
     "static/media/ipsdi.png": "/static/media/ipsdi.419f94748031cd796764.png",
     "static/media/404.svg": "/static/media/404.1ae373f63bc8363145f21fafb0617e3a.svg",
     "index.html": "/index.html",
-    "main.16bc4221.css.map": "/static/css/main.16bc4221.css.map",
-    "main.c45eae38.js.map": "/static/js/main.c45eae38.js.map",
+    "main.4c0c7dbf.css.map": "/static/css/main.4c0c7dbf.css.map",
+    "main.a3c106fb.js.map": "/static/js/main.a3c106fb.js.map",
     "787.c4f55739.chunk.js.map": "/static/js/787.c4f55739.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16bc4221.css",
-    "static/js/main.c45eae38.js"
+    "static/css/main.4c0c7dbf.css",
+    "static/js/main.a3c106fb.js"
   ]
 }
