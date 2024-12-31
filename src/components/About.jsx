@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Border from '../components/Border.jsx';
-import DatePercentage from '../components/CompletionPercentage.jsx';
 import CommandLinkLogo from '../images/logos/commandlink.png';
 import SamsungLogo from '../images/logos/samsung.png';
 import IPSDILogo from '../images/logos/ipsdi.png';
@@ -244,21 +243,23 @@ function About() {
                                     <a className="scp" target="_blank" href="https://omscs.gatech.edu/home">
                                         Georgia Institute of Technology
                                     </a>
-                                    <DatePercentage />
+                                    <p className="leading-tight text-left w-full scp mb-3">
+                                        Jan 2022 - Dec 2024
+                                    </p>
                                     <p className="leading-tight text-left w-full scp">
-                                        GPA: 4.00 / 4.00<br />
+                                        GPA: 3.80 / 4.00<br />
                                         Machine Learning Specialization<br /><br />
-                                        <em><strong>Coursework</strong></em>  :  <em>Click on Course to View Interesting Coursework</em><br />
-                                        [A] <Link to={`/projects/card2`}>Data & Visual Analytics</Link><br />
-                                        [A] <Link to={`/projects/card3`}>Database System Concepts & Design</Link><br />
-                                        [A] <Link to={`/projects/card4`}>Computer Vision</Link><br />
-                                        [A] Artificial Intelligence, Ethics, & Society<br />
-                                        [A] <Link to={`/projects/card5`}>Game Artificial Intelligence</Link><br />
-                                        [A] Machine Learning<br />
-                                        [A] Machine Learning for Trading<br />
-                                        [A] Software Development Process<br />
-                                        [Current] Natural Language Processing<br />
-                                        [Pending] Intro to Graduate Algorithms<br />
+                                        <em><strong>Coursework</strong></em>  :  <em>Click on a Course to View Coursework Project</em><br />
+                                        <Link to={`/projects/card2`}>Data & Visual Analytics</Link><br />
+                                        <Link to={`/projects/card3`}>Database System Concepts & Design</Link><br />
+                                        <Link to={`/projects/card4`}>Computer Vision</Link><br />
+                                        Artificial Intelligence, Ethics, & Society<br />
+                                        <Link to={`/projects/card5`}>Game Artificial Intelligence</Link><br />
+                                        Machine Learning<br />
+                                        Machine Learning for Trading<br />
+                                        Software Development Process<br />
+                                        Natural Language Processing<br />
+                                        Intro to Graduate Algorithms<br />
                                     </p>
                                 </div>
                             </div>
