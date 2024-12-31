@@ -33,39 +33,83 @@ function About() {
                     <div className="w-full">
                         <div className="flex flex-col md:grid grid-cols-12 w-full">
 
-                            {/* New Work Experience */}
-                            <div className="flex md:contents">
-                                <div className="col-start-1 col-end-3 mr-6 md:mx-auto relative">
-                                    <div className="h-full w-12 flex items-center justify-center">
-                                        <div className="h-full w-1 bg-second pointer-events-none"></div>
-                                    </div>
-                                    <div className="w-12 h-12 absolute top-1/2 -mt-6 rounded-full bg-second shadow text-center">
-                                        <i className="fas fa-check-circle text-white"></i>
-                                        <img src={CommandLinkLogo} alt="CommandLink Logo" className="absolute top-0 left-0 h-full w-full object-cover"/>
-                                    </div>
+                        {/* New Work Experience */}
+                        <div className="flex md:contents">
+                            <div className="col-start-1 col-end-3 mr-6 md:mx-auto relative">
+                                <div className="h-full w-12 flex items-center justify-center">
+                                <div className="h-full w-1 bg-second pointer-events-none"></div>
                                 </div>
-                                <div className="bg-second col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
-                                    <h3 className="font-semibold text-lg scp">
-                                        Full-Stack Software Engineer
-                                    </h3>
-                                    <a className="scp" target="_blank" href="https://i-psdi.org/">
-                                        CommandLink
-                                    </a>
-                                    <p className="leading-tight text-left w-full scp mb-3">
-                                        Dec 2023 - Current
-                                    </p>
-                                    <p className="leading-tight text-left w-full scp">
-                                        <em>Technologies: Python, FastAPI, Swagger, Azure, Docker, Terraform, GitHub Actions, Lucid Chart</em><br/>
-                                        <ul class='list-disc pl-5'>
-                                            <li>Designed system architecture with LucidChart to visualize and improve data flow for a content platform</li>
-                                            <li>Deployed Cosmos DB, Blob Storage, Container Apps, and additional resources with Terraform</li>
-                                            <li>Built RESTful APIs using Python FastAPI to bridge operations between React and Azure Storages</li>
-                                            <li>Integrated OAuth2 for robust authentication and platform security enhancements</li>
-                                            <li>Implemented Python standards using Pytest and Flake8 in GitHub Actions CI/CD to ensure code quality</li>
-                                            <li>Created bash scripts for Jest and Cypress automated SDET testing to streamline cleanup</li>
-                                        </ul>
-                                    </p>
+                                <div className="w-12 h-12 absolute top-1/2 -mt-6 rounded-full bg-second shadow text-center">
+                                <i className="fas fa-check-circle text-white"></i>
+                                <img
+                                    src={CommandLinkLogo}
+                                    alt="CommandLink Logo"
+                                    className="absolute top-0 left-0 h-full w-full object-cover"
+                                />
                                 </div>
+                            </div>
+
+                            <div className="bg-second col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
+                                <h3 className="font-semibold text-lg scp">Full-Stack Software Engineer</h3>
+                                <a
+                                className="scp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://i-psdi.org/"
+                                >
+                                CommandLink
+                                </a>
+                                <p className="leading-tight text-left w-full scp mb-3">Dec 2023 - Current</p>
+
+                                <p className="leading-tight text-left w-full scp">
+                                    <em>
+                                        Technologies: FastAPI, Swagger, Docker, Terraform, GitHub Actions,
+                                        LucidChart, Azure Resources, RabbitMQ, Laravel, Wazuh
+                                    </em>
+                                    <br />
+                                    <br />
+                                    {/* Main list for each project */}
+                                    <strong>-- KnowledgeBase --</strong>
+                                    <ul className="list-disc pl-5 mb-2">
+                                        <li>
+                                        Architected and deployed a Python FastAPI microservice bridging
+                                        React JS with Azure storage/services
+                                        </li>
+                                        <li>
+                                        Deployed the Docker image on Azure Container Apps with KeyVault for
+                                        secure secrets
+                                        </li>
+                                        <li>
+                                        Implemented Azure Cognitive Search with a vector database for advanced text
+                                        plus vector search
+                                        </li>
+                                    </ul>
+                                    <strong>-- Third-Party Integrations --</strong>
+                                    <ul className="list-disc pl-5 mb-2">
+                                        <li>
+                                        Developed a ticket sync system between our internal platform and
+                                        external tools like ServiceNow &amp; Jira
+                                        </li>
+                                        <li>Leveraged RabbitMQ for inbound and outbound ticket updates</li>
+                                        <li>
+                                        Automated database operations to keep statuses and references
+                                        consistently in sync
+                                        </li>
+                                    </ul>
+                                    <strong>-- Security Dashboard --</strong>
+                                    <ul className="list-disc pl-5">
+                                        <li>
+                                        Migrated a legacy security dashboard from PHP Yii to Laravel for
+                                        improved performance and maintainability
+                                        </li>
+                                        <li>Optimized FastAPI endpoints for Wazuh OpenSearch</li>
+                                        <li>
+                                        Achieved a 90% reduction in endpoint response times by tuning
+                                        queries and logic
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
                             </div>
 
                             {/* New Work Experience */}
@@ -229,14 +273,14 @@ function About() {
                             <div className="flex md:contents">
                                 <div className="col-start-11 col-end-13 md:mx-auto row-start-1 row-end-2 mr-6">
                                     <div className="h-full w-12 flex items-center justify-center">
-                                        <div className="h-full w-1 bg-second pointer-events-none"></div>
+                                        <div className="h-full w-1 bg-third pointer-events-none"></div>
                                     </div>
-                                    <div className="w-12 h-12 relative -top-1/2 -mt-3 rounded-full bg-second shadow text-center">
+                                    <div className="w-12 h-12 relative -top-1/2 -mt-3 rounded-full bg-third shadow text-center">
                                         <i className="fas fa-check-circle text-white"></i>
                                         <img src={GTLogo} alt="Georgia Institute of Technology Logo" className="absolute top-2 left-2 h-8 w-8"/>
                                     </div>
                                 </div>
-                                <div className="bg-second col-start-2 col-end-11 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
+                                <div className="bg-third col-start-2 col-end-11 p-4 rounded-xl my-4 mr-auto shadow-md w-full text-white">
                                     <h3 className="font-semibold text-lg scp">
                                         Master's of Science in Computer Science
                                     </h3>
