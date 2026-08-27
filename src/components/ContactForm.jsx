@@ -22,10 +22,8 @@ function ContactForm() {
   // Environment Variables
   const apiKey = process.env.REACT_APP_EMAILJS_TOKEN;
   const serviceID = process.env.REACT_APP_SERVICEID;
-
-  // Variables
-  const templateID = "template_hrvljvf";
-  const website = "leekevinm.com"
+  const templateID = process.env.REACT_APP_EMAILJS_TEMPLATEID;
+  const website = process.env.REACT_APP_WEBSITE;
 
   const handleSubmit = async (event) => {
     event.preventDefault();

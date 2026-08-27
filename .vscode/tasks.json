@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Resume: Build PDF",
+      "type": "shell",
+      "command": "latexmk",
+      "args": [
+        "-cd",
+        "-pdf",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "resume/resume.tex"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Resume: Clean Artifacts",
+      "type": "shell",
+      "command": "latexmk",
+      "args": [
+        "-cd",
+        "-c",
+        "resume/resume.tex"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
