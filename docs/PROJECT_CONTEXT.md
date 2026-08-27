@@ -33,6 +33,17 @@
   - Keep CommandSecurity language at the level of EDR, email security, observability, and single-pane-of-glass value.
   - Avoid adding `Temporal` until the system role and interview explanation are both clear.
 
+## Future Architecture Notes
+- Planned direction for the CommandSecurity stack:
+  - Consolidate customer `Wazuh` instances into a newer event-driven platform.
+  - Use `Vector`, `Datadog`, `OpenSearch`, and `Kafka` as the core ingestion and observability building blocks.
+  - Keep event, alert, and related payloads defined through data contracts before indexing into `OpenSearch`.
+  - Scope indexed data by account to prevent cross-account data leakage or contamination.
+  - Treat graph storage as an open design item for blast-radius analysis across entities and relationships.
+- Unresolved tech choices:
+  - `GraphDB` is a future candidate, not a committed resume claim.
+  - `Temporal` remains a future candidate until workflow/orchestration ownership is interview-ready.
+
 ## Next Steps Queue
 1. Resume content rewrite by target role family (Software/Data/Platform).
 2. ATS-focused wording pass and keyword tuning per job description.

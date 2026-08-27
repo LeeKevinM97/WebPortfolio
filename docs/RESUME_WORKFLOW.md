@@ -43,3 +43,5 @@
   - Prefer exact casing for tools, such as `npm`.
   - Avoid vague stack labels like `Big Data` unless it is an official internal name the user can defend.
   - It is fine to mention observability tools like `Graylog`, `Prometheus`, `Grafana`, and `PostHog` when they reflect real usage.
+  - Do not add `GraphDB` or `Temporal` to the resume until the role and explanation are both defensible in interviews.
+  - If future architecture is mentioned, describe the pattern first (`event-driven`, `account-scoped`, `data-contract-based`) and list tools second.

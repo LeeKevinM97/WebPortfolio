@@ -20,6 +20,8 @@ latexmk -cd -pdf -interaction=nonstopmode -file-line-error resume/resume.tex
 - Prefer conservative terminology for technologies and platform names.
 - Use `cloud infrastructure` or `cloud services` instead of generic `cloud security` unless the security-specific meaning is explicit.
 - Avoid adding emerging tools like `Temporal` until the system role can be explained clearly in interviews.
+- If future architecture gets mentioned later, keep the pattern wording first: `event-driven`, `account-scoped`, `data-contract-based`, then tools like `Vector`, `Datadog`, `OpenSearch`, and `Kafka`.
+- Treat `GraphDB` as a future design candidate until it is proven and interview-ready.
 
 ## Clean
 From repo root:
