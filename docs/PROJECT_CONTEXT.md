@@ -25,6 +25,13 @@
   - Senior Engineering Manager: impact, ownership, system complexity, execution.
   - Senior HR: clarity, progression, consistency, role alignment, keyword coverage.
 - Goal: one-page resume with quantified outcomes and strong scannability.
+- Current resume decisions:
+  - Keep experience in reverse chronological order, newest role first.
+  - Keep the education specialization/certificate on the same line as the degree, but not bolded.
+  - Prefer conservative terminology and exact tool names over broad or overstated labels.
+  - Use `cloud infrastructure` or `cloud services` unless the security-specific meaning is explicit.
+  - Keep CommandSecurity language at the level of EDR, email security, observability, and single-pane-of-glass value.
+  - Avoid adding `Temporal` until the system role and interview explanation are both clear.
 
 ## Next Steps Queue
 1. Resume content rewrite by target role family (Software/Data/Platform).

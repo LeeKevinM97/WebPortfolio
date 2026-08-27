@@ -36,3 +36,10 @@
   - Include role-relevant keywords from target job postings.
   - Avoid graphics-heavy structure that breaks text extraction.
   - Keep section names standard (`Experience`, `Projects`, `Education`, `Skills`).
+- Terminology rules from recent review:
+  - List experience in reverse chronological order.
+  - Keep education specialization/certificate on the same line as the degree, but not bolded.
+  - Prefer `cloud infrastructure` or `cloud services` over generic `cloud security` unless the vendor is actually security-specific.
+  - Prefer exact casing for tools, such as `npm`.
+  - Avoid vague stack labels like `Big Data` unless it is an official internal name the user can defend.
+  - It is fine to mention observability tools like `Graylog`, `Prometheus`, `Grafana`, and `PostHog` when they reflect real usage.
